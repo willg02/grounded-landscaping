@@ -365,7 +365,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-bark-400 text-sm">Service Area</p>
-                    <p className="text-xl font-semibold text-white">Charlotte, NC Area</p>
+                    <p className="text-xl font-semibold text-white">Charlotte, NC</p>
                   </div>
                 </div>
               </div>
