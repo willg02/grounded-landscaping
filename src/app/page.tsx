@@ -19,46 +19,46 @@ import {
 
 const services = [
   {
-    name: 'Demo & Removal',
-    description: 'Professional removal of old landscaping, stumps, debris, and unwanted vegetation. We clear the way for your new vision.',
-    icon: WrenchScrewdriverIcon,
-    features: ['Stump removal', 'Debris hauling', 'Site clearing', 'Old landscape removal'],
-  },
-  {
     name: 'Plant Installation',
-    description: 'Expert planting of trees, shrubs, flowers, and ornamental plants that thrive in your environment.',
+    description: 'Expert installation of trees, shrubs, ornamental grasses, and flowering plants. We design and install beautiful, thriving landscapes tailored to your property.',
     icon: SparklesIcon,
-    features: ['Trees & shrubs', 'Flower beds', 'Native plants', 'Seasonal color'],
+    features: ['Trees & shrubs', 'Ornamental grasses', 'Perennials & annuals', 'Native plants'],
   },
   {
-    name: 'Mulch & Ground Cover',
-    description: 'Quality mulch installation for healthier plants, weed prevention, and beautiful landscape beds.',
-    icon: SunIcon,
-    features: ['Premium mulch', 'Ground cover plants', 'Rock & stone', 'Edging'],
-  },
-  {
-    name: 'Basic Installation',
-    description: 'Foundation landscaping, bed creation, and general installation services to transform your space.',
+    name: 'Bed Design & Creation',
+    description: 'From scratch or reimagined—we design and build custom landscape beds with proper grading, soil prep, and professional edging.',
     icon: HomeModernIcon,
-    features: ['New bed creation', 'Border installation', 'Soil preparation', 'Landscape refresh'],
+    features: ['New bed creation', 'Bed redesign', 'Soil amendment', 'Professional edging'],
+  },
+  {
+    name: 'Mulch & Pine Straw',
+    description: 'Quality mulch and pine straw installation for healthier plants, moisture retention, and a polished, finished look.',
+    icon: SunIcon,
+    features: ['Premium hardwood mulch', 'Pine straw', 'Colored mulch options', 'Weed barrier'],
+  },
+  {
+    name: 'Tear-Out & Refresh',
+    description: 'Out with the old, in with the new. We remove overgrown or tired landscaping and prepare your beds for a fresh start.',
+    icon: WrenchScrewdriverIcon,
+    features: ['Old plant removal', 'Overgrowth clearing', 'Bed cleanup', 'Site preparation'],
   },
 ]
 
 const benefits = [
   { title: 'Licensed & Insured', description: 'Full coverage for your peace of mind' },
   { title: 'Free Estimates', description: 'No obligation project quotes' },
-  { title: 'Quality Materials', description: 'Premium products guaranteed' },
-  { title: 'Timely Completion', description: 'On schedule, every time' },
+  { title: 'Installation Experts', description: 'We focus on installs, not maintenance' },
+  { title: 'Quality Plants', description: 'Healthy stock from trusted nurseries' },
   { title: 'Clean Worksite', description: 'We leave it better than we found it' },
   { title: 'Satisfaction Guaranteed', description: 'Your happiness is our priority' },
 ]
 
 const serviceOptions = [
-  { value: 'demo', label: 'Demo & Removal' },
   { value: 'plants', label: 'Plant Installation' },
-  { value: 'mulch', label: 'Mulch & Ground Cover' },
-  { value: 'installation', label: 'Basic Installation' },
-  { value: 'multiple', label: 'Multiple Services' },
+  { value: 'beds', label: 'Bed Design & Creation' },
+  { value: 'mulch', label: 'Mulch & Pine Straw' },
+  { value: 'tearout', label: 'Tear-Out & Refresh' },
+  { value: 'complete', label: 'Complete Landscape Makeover' },
 ]
 
 export default function Home() {
@@ -116,18 +116,18 @@ export default function Home() {
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
               <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
-              <span className="text-primary-200 text-sm font-medium">Professional Landscaping Services</span>
+              <span className="text-primary-200 text-sm font-medium">Professional Landscape Installation</span>
             </div>
             
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Transform Your
+              Beautiful Landscapes,
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary-300 to-earth-300">
-                Outdoor Space
+                Professionally Installed
               </span>
             </h1>
             
             <p className="mt-6 text-xl md:text-2xl text-primary-100/90 max-w-2xl leading-relaxed">
-              From demolition to beautiful installations, we bring your landscape vision to life with professional care and quality craftsmanship.
+              We design and install stunning plant beds, handle tear-outs, and finish with quality mulch or pine straw. Your landscape transformation starts here.
             </p>
             
             <div className="mt-10 flex flex-col sm:flex-row gap-4">
@@ -178,10 +178,10 @@ export default function Home() {
           <div className="text-center max-w-3xl mx-auto mb-20">
             <span className="inline-block text-primary-600 font-semibold text-sm uppercase tracking-wider mb-4">What We Do</span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-bark-900 mb-6">
-              Our Services
+              Installation Services
             </h2>
             <p className="text-xl text-bark-600">
-              Comprehensive landscaping solutions from start to finish. We handle every aspect of your outdoor transformation.
+              We focus on what we do best—designing, installing, and refreshing landscape beds. No maintenance, just beautiful transformations.
             </p>
           </div>
           
@@ -221,6 +221,43 @@ export default function Home() {
         </div>
       </section>
       
+      {/* Process Section */}
+      <section className="py-24 bg-gradient-to-b from-white to-bark-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <span className="inline-block text-primary-600 font-semibold text-sm uppercase tracking-wider mb-4">How We Work</span>
+            <h2 className="font-display text-4xl md:text-5xl font-bold text-bark-900 mb-6">
+              Simple Process, Beautiful Results
+            </h2>
+            <p className="text-xl text-bark-600">
+              From first contact to final walkthrough, we make your landscape project stress-free.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-4 gap-8">
+            {[
+              { step: '01', title: 'Free Consultation', desc: 'We visit your property, discuss your vision, and provide a detailed quote—no obligation.' },
+              { step: '02', title: 'Design & Plan', desc: 'We lay out the design, select plants, and schedule your installation date.' },
+              { step: '03', title: 'Professional Install', desc: 'Our crew handles tear-out, bed prep, planting, and mulch. We work clean and efficient.' },
+              { step: '04', title: 'Final Walkthrough', desc: 'We review the work together, answer questions, and leave your property spotless.' },
+            ].map((item, index) => (
+              <div key={item.step} className="relative text-center">
+                {index < 3 && (
+                  <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary-200 to-primary-100" />
+                )}
+                <div className="relative">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-primary-500/20">
+                    <span className="text-white font-bold text-lg">{item.step}</span>
+                  </div>
+                  <h3 className="font-display text-xl font-bold text-bark-900 mb-2">{item.title}</h3>
+                  <p className="text-bark-600 text-sm leading-relaxed">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      
       {/* About / Why Choose Us Section */}
       <section id="about" className="py-24 bg-gradient-to-b from-bark-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -232,11 +269,11 @@ export default function Home() {
               </h2>
               
               <p className="text-lg text-bark-600 mb-6 leading-relaxed">
-                At Grounded Landscaping, we believe your outdoor space should be an extension of your home—a place where memories are made and nature thrives.
+                At Grounded Landscaping, we specialize in one thing: making your outdoor space look incredible. We're not a maintenance company—we're installers who take pride in transforming tired landscapes into something you'll love coming home to.
               </p>
               
               <p className="text-lg text-bark-600 mb-8 leading-relaxed">
-                We specialize in demo, plant installation, mulch, and basic installation services. Our team brings years of experience and a genuine passion for creating beautiful, functional outdoor spaces.
+                Whether you need a complete landscape makeover, fresh plant beds, or just a clean mulch refresh, our team handles every detail from design to final cleanup.
               </p>
               
               <div className="grid grid-cols-2 gap-4">
@@ -267,11 +304,11 @@ export default function Home() {
                   </div>
                   
                   <h3 className="font-display text-3xl font-bold mb-4">
-                    Ready to Transform Your Space?
+                    Ready for a Landscape Makeover?
                   </h3>
                   
                   <p className="text-primary-100 mb-8 leading-relaxed">
-                    Let's discuss your project. We offer free estimates and are happy to answer any questions about our services.
+                    Whether it's a few new plants or a complete bed redesign, we'll handle everything. Free estimates, no pressure.
                   </p>
                   
                   <a 
