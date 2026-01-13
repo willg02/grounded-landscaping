@@ -1,12 +1,12 @@
 // Prisma schema for Grounded Landscaping
-// Database: SQLite (easy to switch to PostgreSQL for production)
+// Database: PostgreSQL (Neon)
 
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
-  provider = "sqlite"
+  provider = "postgresql"
   url      = env("DATABASE_URL")
 }
 
