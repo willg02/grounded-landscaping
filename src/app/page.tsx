@@ -349,24 +349,12 @@ export default function Home() {
               <div className="space-y-6">
                 <div className="flex items-center gap-4">
                   <div className="w-14 h-14 bg-primary-600/20 rounded-xl flex items-center justify-center">
-                    <PhoneIcon className="w-6 h-6 text-primary-400" />
-                  </div>
-                  <div>
-                    <p className="text-bark-400 text-sm">Call us</p>
-                    <a href="tel:+15551234567" className="text-xl font-semibold text-white hover:text-primary-400 transition-colors">
-                      (555) 123-4567
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-center gap-4">
-                  <div className="w-14 h-14 bg-primary-600/20 rounded-xl flex items-center justify-center">
                     <EnvelopeIcon className="w-6 h-6 text-primary-400" />
                   </div>
                   <div>
                     <p className="text-bark-400 text-sm">Email us</p>
-                    <a href="mailto:info@groundedlandscaping.com" className="text-xl font-semibold text-white hover:text-primary-400 transition-colors">
-                      info@groundedlandscaping.com
+                    <a href="mailto:management@bygrounded.com" className="text-xl font-semibold text-white hover:text-primary-400 transition-colors">
+                      management@bygrounded.com
                     </a>
                   </div>
                 </div>
@@ -377,7 +365,7 @@ export default function Home() {
                   </div>
                   <div>
                     <p className="text-bark-400 text-sm">Service Area</p>
-                    <p className="text-xl font-semibold text-white">Greater Metro Area</p>
+                    <p className="text-xl font-semibold text-white">Charlotte, NC Area</p>
                   </div>
                 </div>
               </div>
