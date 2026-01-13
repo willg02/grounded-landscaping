@@ -1,0 +1,188 @@
+// Prisma schema for Grounded Landscaping
+// Database: SQLite (easy to switch to PostgreSQL for production)
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+// User accounts for employees and admins
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String
+  name          String
+  phone         String?
+  role          String    @default("employee") // admin, manager, employee
+  isActive      Boolean   @default(true)
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Relations
+  assignedJobs  Job[]     @relation("AssignedEmployee")
+  createdJobs   Job[]     @relation("CreatedBy")
+  invoices      Invoice[] @relation("CreatedByUser")
+  notes         Note[]
+}
+
+// Client/Customer information
+model Client {
+  id            String    @id @default(cuid())
+  firstName     String
+  lastName      String
+  email         String?
+  phone         String
+  address       String
+  city          String
+  state         String
+  zipCode       String
+  notes         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Relations
+  jobs          Job[]
+  invoices      Invoice[]
+}
+
+// Job/Project tracking
+model Job {
+  id            String    @id @default(cuid())
+  title         String
+  description   String?
+  serviceType   String    // demo, plant_installation, mulch, general_install
+  status        String    @default("pending") // pending, scheduled, in_progress, completed, cancelled
+  priority      String    @default("normal") // low, normal, high, urgent
+  
+  // Scheduling
+  scheduledDate DateTime?
+  scheduledTime String?
+  estimatedHours Float?
+  actualHours   Float?
+  
+  // Location (can differ from client address)
+  jobAddress    String
+  jobCity       String
+  jobState      String
+  jobZipCode    String
+  
+  // Pricing
+  estimatedCost Float?
+  actualCost    Float?
+  
+  // Timestamps
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  completedAt   DateTime?
+  
+  // Relations
+  clientId      String
+  client        Client    @relation(fields: [clientId], references: [id])
+  assignedToId  String?
+  assignedTo    User?     @relation("AssignedEmployee", fields: [assignedToId], references: [id])
+  createdById   String
+  createdBy     User      @relation("CreatedBy", fields: [createdById], references: [id])
+  invoice       Invoice?
+  materials     Material[]
+  notes         Note[]
+}
+
+// Invoice management
+model Invoice {
+  id            String    @id @default(cuid())
+  invoiceNumber String    @unique
+  status        String    @default("draft") // draft, sent, paid, overdue, cancelled
+  
+  // Amounts
+  subtotal      Float
+  tax           Float     @default(0)
+  total         Float
+  amountPaid    Float     @default(0)
+  
+  // Dates
+  issueDate     DateTime  @default(now())
+  dueDate       DateTime
+  paidDate      DateTime?
+  
+  // Details
+  notes         String?
+  
+  // Timestamps
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  // Relations
+  clientId      String
+  client        Client    @relation(fields: [clientId], references: [id])
+  jobId         String?   @unique
+  job           Job?      @relation(fields: [jobId], references: [id])
+  createdById   String
+  createdBy     User      @relation("CreatedByUser", fields: [createdById], references: [id])
+  lineItems     LineItem[]
+}
+
+// Invoice line items
+model LineItem {
+  id            String    @id @default(cuid())
+  description   String
+  quantity      Float
+  unitPrice     Float
+  total         Float
+  
+  // Relations
+  invoiceId     String
+  invoice       Invoice   @relation(fields: [invoiceId], references: [id], onDelete: Cascade)
+}
+
+// Materials tracking for jobs
+model Material {
+  id            String    @id @default(cuid())
+  name          String
+  quantity      Float
+  unit          String    // yards, bags, each, etc.
+  cost          Float?
+  
+  // Relations
+  jobId         String
+  job           Job       @relation(fields: [jobId], references: [id], onDelete: Cascade)
+}
+
+// Notes for jobs and general
+model Note {
+  id            String    @id @default(cuid())
+  content       String
+  createdAt     DateTime  @default(now())
+  
+  // Relations
+  jobId         String?
+  job           Job?      @relation(fields: [jobId], references: [id], onDelete: Cascade)
+  userId        String
+  user          User      @relation(fields: [userId], references: [id])
+}
+
+// Service types catalog
+model Service {
+  id            String    @id @default(cuid())
+  name          String
+  slug          String    @unique
+  description   String
+  basePrice     Float?
+  priceUnit     String?   // per_hour, per_sqft, per_yard, flat_rate
+  isActive      Boolean   @default(true)
+}
+
+// Contact form submissions from website
+model ContactSubmission {
+  id            String    @id @default(cuid())
+  name          String
+  email         String
+  phone         String?
+  service       String?
+  message       String
+  status        String    @default("new") // new, contacted, converted, closed
+  createdAt     DateTime  @default(now())
+}
