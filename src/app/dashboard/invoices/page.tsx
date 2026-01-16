@@ -103,8 +103,8 @@ export default function InvoicesPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="font-display text-2xl font-bold text-bark-900">Invoices</h1>
-          <p className="text-bark-500">Manage billing and payments</p>
+          <h1 className="font-display text-2xl font-bold text-bark-900 dark:text-white">Invoices</h1>
+          <p className="text-bark-500 dark:text-bark-400">Manage billing and payments</p>
         </div>
         <Link
           href="/dashboard/invoices/new"
@@ -117,22 +117,22 @@ export default function InvoicesPage() {
 
       {/* Summary Cards */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-6">
-          <p className="text-bark-500 text-sm mb-1">Outstanding</p>
-          <p className="text-2xl font-bold text-bark-900">{formatCurrency(totalOutstanding)}</p>
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-6">
+          <p className="text-bark-500 dark:text-bark-400 text-sm mb-1">Outstanding</p>
+          <p className="text-2xl font-bold text-bark-900 dark:text-white">{formatCurrency(totalOutstanding)}</p>
         </div>
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-6">
-          <p className="text-bark-500 text-sm mb-1">Paid This Month</p>
-          <p className="text-2xl font-bold text-green-600">{formatCurrency(totalPaid)}</p>
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-6">
+          <p className="text-bark-500 dark:text-bark-400 text-sm mb-1">Paid This Month</p>
+          <p className="text-2xl font-bold text-green-600 dark:text-green-400">{formatCurrency(totalPaid)}</p>
         </div>
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-6">
-          <p className="text-bark-500 text-sm mb-1">Total Invoices</p>
-          <p className="text-2xl font-bold text-bark-900">{invoices.length}</p>
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-6">
+          <p className="text-bark-500 dark:text-bark-400 text-sm mb-1">Total Invoices</p>
+          <p className="text-2xl font-bold text-bark-900 dark:text-white">{invoices.length}</p>
         </div>
       </div>
 
       {/* Search and Filters */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="relative flex-1">
             <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-bark-400" />
@@ -141,7 +141,7 @@ export default function InvoicesPage() {
               placeholder="Search by invoice number or client..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-bark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              className="w-full pl-10 pr-4 py-3 border border-bark-200 dark:border-bark-600 dark:bg-bark-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -149,7 +149,7 @@ export default function InvoicesPage() {
             <select
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-4 py-3 border border-bark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+              className="px-4 py-3 border border-bark-200 dark:border-bark-600 dark:bg-bark-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
             >
               <option value="all">All Status</option>
               <option value="draft">Draft</option>
@@ -162,21 +162,21 @@ export default function InvoicesPage() {
       </div>
 
       {/* Invoices Table */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 overflow-hidden">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 overflow-hidden">
         {isLoading ? (
           <div className="p-12 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600 mx-auto"></div>
-            <p className="text-bark-500 mt-4">Loading invoices...</p>
+            <p className="text-bark-500 dark:text-bark-400 mt-4">Loading invoices...</p>
           </div>
         ) : filteredInvoices.length === 0 ? (
           <div className="p-12 text-center">
-            <div className="w-16 h-16 bg-bark-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-bark-100 dark:bg-bark-700 rounded-full flex items-center justify-center mx-auto mb-4">
               <DocumentTextIcon className="w-8 h-8 text-bark-400" />
             </div>
-            <h3 className="font-semibold text-bark-900 mb-2">
+            <h3 className="font-semibold text-bark-900 dark:text-white mb-2">
               {searchTerm || statusFilter !== 'all' ? 'No invoices found' : 'No invoices yet'}
             </h3>
-            <p className="text-bark-500 mb-6">
+            <p className="text-bark-500 dark:text-bark-400 mb-6">
               {searchTerm || statusFilter !== 'all'
                 ? 'Try adjusting your search or filter' 
                 : 'Create your first invoice to get started'}
@@ -190,34 +190,34 @@ export default function InvoicesPage() {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full">
-              <thead className="bg-bark-50 border-b border-bark-100">
+              <thead className="bg-bark-50 dark:bg-bark-900 border-b border-bark-100 dark:border-bark-700">
                 <tr>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700">Invoice</th>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700">Client</th>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700">Status</th>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700">Issue Date</th>
-                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700">Due Date</th>
-                  <th className="text-right px-6 py-4 text-sm font-semibold text-bark-700">Amount</th>
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Invoice</th>
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Client</th>
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Status</th>
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Issue Date</th>
+                  <th className="text-left px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Due Date</th>
+                  <th className="text-right px-6 py-4 text-sm font-semibold text-bark-700 dark:text-bark-300">Amount</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-bark-100">
+              <tbody className="divide-y divide-bark-100 dark:divide-bark-700">
                 {filteredInvoices.map((invoice) => {
                   const config = statusConfig[invoice.status] || statusConfig.draft
                   return (
-                    <tr key={invoice.id} className="hover:bg-bark-50 transition-colors">
+                    <tr key={invoice.id} className="hover:bg-bark-50 dark:hover:bg-bark-700/50 transition-colors">
                       <td className="px-6 py-4">
                         <Link 
                           href={`/dashboard/invoices/${invoice.id}`}
-                          className="font-medium text-primary-600 hover:text-primary-700"
+                          className="font-medium text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300"
                         >
                           {invoice.invoiceNumber}
                         </Link>
                         {invoice.job && (
-                          <p className="text-sm text-bark-500">{invoice.job.title}</p>
+                          <p className="text-sm text-bark-500 dark:text-bark-400">{invoice.job.title}</p>
                         )}
                       </td>
                       <td className="px-6 py-4">
-                        <span className="text-bark-900">
+                        <span className="text-bark-900 dark:text-white">
                           {invoice.client.firstName} {invoice.client.lastName}
                         </span>
                       </td>
@@ -227,18 +227,18 @@ export default function InvoicesPage() {
                           {config.label}
                         </span>
                       </td>
-                      <td className="px-6 py-4 text-bark-600">
+                      <td className="px-6 py-4 text-bark-600 dark:text-bark-300">
                         {formatDate(invoice.issueDate)}
                       </td>
-                      <td className="px-6 py-4 text-bark-600">
+                      <td className="px-6 py-4 text-bark-600 dark:text-bark-300">
                         {formatDate(invoice.dueDate)}
                       </td>
                       <td className="px-6 py-4 text-right">
-                        <span className="font-semibold text-bark-900">
+                        <span className="font-semibold text-bark-900 dark:text-white">
                           {formatCurrency(invoice.total)}
                         </span>
                         {invoice.amountPaid > 0 && invoice.amountPaid < invoice.total && (
-                          <p className="text-xs text-bark-500">
+                          <p className="text-xs text-bark-500 dark:text-bark-400">
                             {formatCurrency(invoice.amountPaid)} paid
                           </p>
                         )}

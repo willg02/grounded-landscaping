@@ -2,8 +2,10 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { motion } from 'framer-motion'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
+import { FadeIn } from '@/components/animations'
 import toast from 'react-hot-toast'
 import { 
   CheckCircleIcon, 
@@ -114,23 +116,43 @@ export default function Home() {
         
         <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-32">
           <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6">
+            <motion.div 
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm rounded-full px-4 py-2 mb-6"
+            >
               <span className="w-2 h-2 bg-primary-400 rounded-full animate-pulse" />
               <span className="text-primary-200 text-sm font-medium">Professional Landscape Installation</span>
-            </div>
+            </motion.div>
             
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
+            <motion.h1 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight"
+            >
               Beautiful Landscapes,
               <span className="block text-transparent bg-clip-text bg-gradient-to-r from-primary-300 to-earth-300">
                 Professionally Installed
               </span>
-            </h1>
+            </motion.h1>
             
-            <p className="mt-6 text-xl md:text-2xl text-primary-100/90 max-w-2xl leading-relaxed">
+            <motion.p 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="mt-6 text-xl md:text-2xl text-primary-100/90 max-w-2xl leading-relaxed"
+            >
               We design and install stunning plant beds, handle tear-outs, and finish with quality mulch or pine straw. Your landscape transformation starts here.
-            </p>
+            </motion.p>
             
-            <div className="mt-10 flex flex-col sm:flex-row gap-4">
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="mt-10 flex flex-col sm:flex-row gap-4"
+            >
               <a 
                 href="#contact" 
                 className="group inline-flex items-center justify-center gap-2 bg-white text-primary-700 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-primary-50 transition-all duration-300 shadow-lg shadow-black/20"
@@ -144,10 +166,15 @@ export default function Home() {
               >
                 View Services
               </a>
-            </div>
+            </motion.div>
             
             {/* Stats */}
-            <div className="mt-16 grid grid-cols-3 gap-8 max-w-lg">
+            <motion.div 
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+              className="mt-16 grid grid-cols-3 gap-8 max-w-lg"
+            >
               <div>
                 <div className="text-3xl md:text-4xl font-bold text-white">100+</div>
                 <div className="text-primary-200 text-sm">Projects Done</div>
@@ -160,7 +187,7 @@ export default function Home() {
                 <div className="text-3xl md:text-4xl font-bold text-white">24hr</div>
                 <div className="text-primary-200 text-sm">Response Time</div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         
@@ -175,7 +202,7 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-24 bg-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-20">
+          <FadeIn className="text-center max-w-3xl mx-auto mb-20">
             <span className="inline-block text-primary-600 font-semibold text-sm uppercase tracking-wider mb-4">What We Do</span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-bark-900 mb-6">
               Installation Services
@@ -183,39 +210,42 @@ export default function Home() {
             <p className="text-xl text-bark-600">
               We focus on what we do best—designing, installing, and refreshing landscape beds. No maintenance, just beautiful transformations.
             </p>
-          </div>
+          </FadeIn>
           
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {services.map((service, index) => (
-              <div
-                key={service.name}
-                className="group relative bg-gradient-to-br from-bark-50 to-white rounded-2xl p-8 border border-bark-100 hover:border-primary-200 hover:shadow-xl transition-all duration-500"
-              >
-                <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary-100/50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                
-                <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-primary-500/20 group-hover:scale-110 transition-transform duration-300">
-                    <service.icon className="w-8 h-8 text-white" />
+              <FadeIn key={service.name} delay={index * 0.1}>
+                <motion.div
+                  whileHover={{ y: -8 }}
+                  transition={{ duration: 0.3 }}
+                  className="group relative bg-gradient-to-br from-bark-50 to-white rounded-2xl p-8 border border-bark-100 hover:border-primary-200 hover:shadow-xl transition-all duration-500 h-full"
+                >
+                  <div className="absolute top-0 right-0 w-32 h-32 bg-gradient-to-br from-primary-100/50 to-transparent rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  
+                  <div className="relative">
+                    <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-xl flex items-center justify-center mb-6 shadow-lg shadow-primary-500/20 group-hover:scale-110 transition-transform duration-300">
+                      <service.icon className="w-8 h-8 text-white" />
+                    </div>
+                    
+                    <h3 className="font-display text-2xl font-bold text-bark-900 mb-3">
+                      {service.name}
+                    </h3>
+                    
+                    <p className="text-bark-600 mb-6 leading-relaxed">
+                      {service.description}
+                    </p>
+                    
+                    <ul className="grid grid-cols-2 gap-2">
+                      {service.features.map((feature) => (
+                        <li key={feature} className="flex items-center gap-2 text-sm text-bark-700">
+                          <CheckCircleIcon className="w-4 h-4 text-primary-500 flex-shrink-0" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
                   </div>
-                  
-                  <h3 className="font-display text-2xl font-bold text-bark-900 mb-3">
-                    {service.name}
-                  </h3>
-                  
-                  <p className="text-bark-600 mb-6 leading-relaxed">
-                    {service.description}
-                  </p>
-                  
-                  <ul className="grid grid-cols-2 gap-2">
-                    {service.features.map((feature) => (
-                      <li key={feature} className="flex items-center gap-2 text-sm text-bark-700">
-                        <CheckCircleIcon className="w-4 h-4 text-primary-500 flex-shrink-0" />
-                        {feature}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+                </motion.div>
+              </FadeIn>
             ))}
           </div>
         </div>
@@ -224,7 +254,7 @@ export default function Home() {
       {/* Process Section */}
       <section className="py-24 bg-gradient-to-b from-white to-bark-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center max-w-3xl mx-auto mb-16">
+          <FadeIn className="text-center max-w-3xl mx-auto mb-16">
             <span className="inline-block text-primary-600 font-semibold text-sm uppercase tracking-wider mb-4">How We Work</span>
             <h2 className="font-display text-4xl md:text-5xl font-bold text-bark-900 mb-6">
               Simple Process, Beautiful Results
@@ -232,7 +262,7 @@ export default function Home() {
             <p className="text-xl text-bark-600">
               From first contact to final walkthrough, we make your landscape project stress-free.
             </p>
-          </div>
+          </FadeIn>
           
           <div className="grid md:grid-cols-4 gap-8">
             {[
@@ -241,18 +271,21 @@ export default function Home() {
               { step: '03', title: 'Professional Install', desc: 'Our crew handles tear-out, bed prep, planting, and mulch. We work clean and efficient.' },
               { step: '04', title: 'Final Walkthrough', desc: 'We review the work together, answer questions, and leave your property spotless.' },
             ].map((item, index) => (
-              <div key={item.step} className="relative text-center">
+              <FadeIn key={item.step} delay={index * 0.15} className="relative text-center">
                 {index < 3 && (
                   <div className="hidden md:block absolute top-8 left-1/2 w-full h-0.5 bg-gradient-to-r from-primary-200 to-primary-100" />
                 )}
                 <div className="relative">
-                  <div className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-primary-500/20">
+                  <motion.div 
+                    whileHover={{ scale: 1.1, rotate: 5 }}
+                    className="w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-primary-500/20"
+                  >
                     <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
+                  </motion.div>
                   <h3 className="font-display text-xl font-bold text-bark-900 mb-2">{item.title}</h3>
                   <p className="text-bark-600 text-sm leading-relaxed">{item.desc}</p>
                 </div>
-              </div>
+              </FadeIn>
             ))}
           </div>
         </div>
@@ -262,7 +295,7 @@ export default function Home() {
       <section id="about" className="py-24 bg-gradient-to-b from-bark-50 to-white">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
+            <FadeIn direction="right">
               <span className="inline-block text-primary-600 font-semibold text-sm uppercase tracking-wider mb-4">About Us</span>
               <h2 className="font-display text-4xl md:text-5xl font-bold text-bark-900 mb-6">
                 Why Choose <span className="text-primary-600">Grounded?</span>
@@ -277,8 +310,12 @@ export default function Home() {
               </p>
               
               <div className="grid grid-cols-2 gap-4">
-                {benefits.map((benefit) => (
-                  <div key={benefit.title} className="flex items-start gap-3 p-3 rounded-lg hover:bg-white transition-colors">
+                {benefits.map((benefit, index) => (
+                  <motion.div 
+                    key={benefit.title} 
+                    whileHover={{ x: 4 }}
+                    className="flex items-start gap-3 p-3 rounded-lg hover:bg-white transition-colors"
+                  >
                     <div className="w-8 h-8 bg-primary-100 rounded-lg flex items-center justify-center flex-shrink-0">
                       <CheckCircleIcon className="w-5 h-5 text-primary-600" />
                     </div>
@@ -286,16 +323,24 @@ export default function Home() {
                       <h4 className="font-semibold text-bark-900 text-sm">{benefit.title}</h4>
                       <p className="text-bark-500 text-xs">{benefit.description}</p>
                     </div>
-                  </div>
+                  </motion.div>
                 ))}
               </div>
-            </div>
+            </FadeIn>
             
-            <div className="relative">
+            <FadeIn direction="left">
               {/* Decorative card stack */}
               <div className="relative max-w-md mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-200 to-earth-200 rounded-3xl transform rotate-3" />
-                <div className="absolute inset-0 bg-gradient-to-br from-earth-200 to-primary-200 rounded-3xl transform -rotate-3" />
+                <motion.div 
+                  animate={{ rotate: [3, 5, 3] }}
+                  transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
+                  className="absolute inset-0 bg-gradient-to-br from-primary-200 to-earth-200 rounded-3xl"
+                />
+                <motion.div 
+                  animate={{ rotate: [-3, -5, -3] }}
+                  transition={{ repeat: Infinity, duration: 6, ease: "easeInOut" }}
+                  className="absolute inset-0 bg-gradient-to-br from-earth-200 to-primary-200 rounded-3xl"
+                />
                 <div className="relative bg-gradient-to-br from-primary-600 to-primary-700 rounded-3xl p-10 text-white shadow-2xl">
                   <div className="w-20 h-20 bg-white/20 rounded-2xl flex items-center justify-center mb-6">
                     <svg className="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -326,7 +371,7 @@ export default function Home() {
                 <p className="text-bark-400 text-sm">Website by</p>
                 <p className="font-display font-semibold text-bark-600">Frame & Function</p>
               </div>
-            </div>
+            </FadeIn>
           </div>
         </div>
       </section>
@@ -336,7 +381,7 @@ export default function Home() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Contact Info */}
-            <div className="text-white">
+            <FadeIn direction="right" className="text-white">
               <span className="inline-block text-primary-400 font-semibold text-sm uppercase tracking-wider mb-4">Contact Us</span>
               <h2 className="font-display text-4xl md:text-5xl font-bold mb-6">
                 Let's Start Your Project
@@ -347,7 +392,10 @@ export default function Home() {
               </p>
               
               <div className="space-y-6">
-                <div className="flex items-center gap-4">
+                <motion.div 
+                  whileHover={{ x: 8 }}
+                  className="flex items-center gap-4"
+                >
                   <div className="w-14 h-14 bg-primary-600/20 rounded-xl flex items-center justify-center">
                     <EnvelopeIcon className="w-6 h-6 text-primary-400" />
                   </div>
@@ -357,9 +405,12 @@ export default function Home() {
                       management@bygrounded.com
                     </a>
                   </div>
-                </div>
+                </motion.div>
                 
-                <div className="flex items-center gap-4">
+                <motion.div 
+                  whileHover={{ x: 8 }}
+                  className="flex items-center gap-4"
+                >
                   <div className="w-14 h-14 bg-primary-600/20 rounded-xl flex items-center justify-center">
                     <MapPinIcon className="w-6 h-6 text-primary-400" />
                   </div>
@@ -367,7 +418,7 @@ export default function Home() {
                     <p className="text-bark-400 text-sm">Service Area</p>
                     <p className="text-xl font-semibold text-white">Charlotte, NC</p>
                   </div>
-                </div>
+                </motion.div>
               </div>
               
               <div className="mt-12 p-6 bg-bark-800 rounded-2xl">
@@ -378,11 +429,15 @@ export default function Home() {
                   <p>Sunday: Closed</p>
                 </div>
               </div>
-            </div>
+            </FadeIn>
             
             {/* Contact Form */}
-            <div>
-              <div className="bg-white rounded-3xl p-8 md:p-10 shadow-2xl">
+            <FadeIn direction="left">
+              <motion.div 
+                whileHover={{ y: -4 }}
+                transition={{ type: "spring", stiffness: 300 }}
+                className="bg-white rounded-3xl p-8 md:p-10 shadow-2xl"
+              >
                 <h3 className="font-display text-2xl font-bold text-bark-900 mb-2">
                   Request a Free Quote
                 </h3>
@@ -484,8 +539,8 @@ export default function Home() {
                     {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
                 </form>
-              </div>
-            </div>
+              </motion.div>
+            </FadeIn>
           </div>
         </div>
       </section>

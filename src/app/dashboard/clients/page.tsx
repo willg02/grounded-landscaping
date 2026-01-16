@@ -65,8 +65,8 @@ export default function ClientsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="font-display text-2xl font-bold text-bark-900">Clients</h1>
-          <p className="text-bark-500">Manage your customer database</p>
+          <h1 className="font-display text-2xl font-bold text-bark-900 dark:text-white">Clients</h1>
+          <p className="text-bark-500 dark:text-bark-400">Manage your customer database</p>
         </div>
         <Link
           href="/dashboard/clients/new"
@@ -78,7 +78,7 @@ export default function ClientsPage() {
       </div>
 
       {/* Search */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
         <div className="relative">
           <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-bark-400" />
           <input
@@ -86,27 +86,27 @@ export default function ClientsPage() {
             placeholder="Search clients by name, email, phone, or address..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className="w-full pl-10 pr-4 py-3 border border-bark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+            className="w-full pl-10 pr-4 py-3 border border-bark-200 dark:border-bark-600 dark:bg-bark-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
           />
         </div>
       </div>
 
       {/* Clients List */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 overflow-hidden">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 overflow-hidden">
         {isLoading ? (
           <div className="p-12 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600 mx-auto"></div>
-            <p className="text-bark-500 mt-4">Loading clients...</p>
+            <p className="text-bark-500 dark:text-bark-400 mt-4">Loading clients...</p>
           </div>
         ) : filteredClients.length === 0 ? (
           <div className="p-12 text-center">
-            <div className="w-16 h-16 bg-bark-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-bark-100 dark:bg-bark-700 rounded-full flex items-center justify-center mx-auto mb-4">
               <MagnifyingGlassIcon className="w-8 h-8 text-bark-400" />
             </div>
-            <h3 className="font-semibold text-bark-900 mb-2">
+            <h3 className="font-semibold text-bark-900 dark:text-white mb-2">
               {searchTerm ? 'No clients found' : 'No clients yet'}
             </h3>
-            <p className="text-bark-500 mb-6">
+            <p className="text-bark-500 dark:text-bark-400 mb-6">
               {searchTerm 
                 ? 'Try adjusting your search terms' 
                 : 'Add your first client to get started'}
@@ -118,21 +118,21 @@ export default function ClientsPage() {
             )}
           </div>
         ) : (
-          <div className="divide-y divide-bark-100">
+          <div className="divide-y divide-bark-100 dark:divide-bark-700">
             {filteredClients.map((client) => (
-              <div key={client.id} className="p-6 hover:bg-bark-50 transition-colors">
+              <div key={client.id} className="p-6 hover:bg-bark-50 dark:hover:bg-bark-700/50 transition-colors">
                 <div className="flex items-start justify-between">
                   <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary-100 rounded-full flex items-center justify-center flex-shrink-0">
-                      <span className="text-primary-700 font-semibold text-lg">
+                    <div className="w-12 h-12 bg-primary-100 dark:bg-primary-900/50 rounded-full flex items-center justify-center flex-shrink-0">
+                      <span className="text-primary-700 dark:text-primary-400 font-semibold text-lg">
                         {client.firstName.charAt(0)}{client.lastName.charAt(0)}
                       </span>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-bark-900 text-lg">
+                      <h3 className="font-semibold text-bark-900 dark:text-white text-lg">
                         {client.firstName} {client.lastName}
                       </h3>
-                      <div className="flex flex-wrap gap-4 mt-2 text-sm text-bark-500">
+                      <div className="flex flex-wrap gap-4 mt-2 text-sm text-bark-500 dark:text-bark-400">
                         <span className="flex items-center gap-1">
                           <PhoneIcon className="w-4 h-4" />
                           {client.phone}
@@ -144,7 +144,7 @@ export default function ClientsPage() {
                           </span>
                         )}
                       </div>
-                      <div className="flex items-center gap-1 mt-2 text-sm text-bark-400">
+                      <div className="flex items-center gap-1 mt-2 text-sm text-bark-400 dark:text-bark-500">
                         <MapPinIcon className="w-4 h-4" />
                         {client.address}, {client.city}, {client.state} {client.zipCode}
                       </div>

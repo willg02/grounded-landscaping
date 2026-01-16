@@ -4,6 +4,7 @@ import { useSession, signOut } from 'next-auth/react'
 import { useRouter, usePathname } from 'next/navigation'
 import Link from 'next/link'
 import { useEffect, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import {
   HomeIcon,
   UsersIcon,
@@ -17,6 +18,7 @@ import {
   ArrowLeftOnRectangleIcon,
   ChevronDownIcon,
 } from '@heroicons/react/24/outline'
+import ThemeToggle from '@/components/ThemeToggle'
 
 const navigation = [
   { name: 'Dashboard', href: '/dashboard', icon: HomeIcon },
@@ -63,18 +65,23 @@ export default function DashboardLayout({
   }
 
   return (
-    <div className="min-h-screen bg-bark-50">
+    <div className="min-h-screen bg-bark-50 dark:bg-bark-900">
       {/* Mobile sidebar overlay */}
-      {sidebarOpen && (
-        <div 
-          className="fixed inset-0 z-40 bg-black/50 lg:hidden"
-          onClick={() => setSidebarOpen(false)}
-        />
-      )}
+      <AnimatePresence>
+        {sidebarOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 z-40 bg-black/50 backdrop-blur-sm lg:hidden"
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
+      </AnimatePresence>
       
       {/* Sidebar */}
       <aside className={`
-        fixed inset-y-0 left-0 z-50 w-64 bg-bark-900 transform transition-transform duration-300 ease-in-out
+        fixed inset-y-0 left-0 z-50 w-64 bg-bark-900 dark:bg-bark-950 transform transition-transform duration-300 ease-in-out
         lg:translate-x-0 ${sidebarOpen ? 'translate-x-0' : '-translate-x-full'}
       `}>
         {/* Logo */}
@@ -163,19 +170,22 @@ export default function DashboardLayout({
       {/* Main content */}
       <div className="lg:pl-64">
         {/* Top bar */}
-        <header className="sticky top-0 z-30 h-16 bg-white border-b border-bark-200 flex items-center px-4 lg:px-8">
+        <header className="sticky top-0 z-30 h-16 bg-white dark:bg-bark-800 border-b border-bark-200 dark:border-bark-700 flex items-center px-4 lg:px-8">
           <button
             onClick={() => setSidebarOpen(true)}
-            className="lg:hidden text-bark-600 hover:text-bark-900 mr-4"
+            className="lg:hidden text-bark-600 dark:text-bark-300 hover:text-bark-900 dark:hover:text-white mr-4"
           >
             <Bars3Icon className="w-6 h-6" />
           </button>
           
           <div className="flex-1">
-            <h1 className="font-display text-xl font-semibold text-bark-900">
+            <h1 className="font-display text-xl font-semibold text-bark-900 dark:text-white">
               {navigation.find(item => pathname === item.href || pathname.startsWith(item.href + '/'))?.name || 'Dashboard'}
             </h1>
           </div>
+          
+          {/* Theme Toggle */}
+          <ThemeToggle />
         </header>
         
         {/* Page content */}

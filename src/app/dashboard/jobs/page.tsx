@@ -106,8 +106,8 @@ export default function JobsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="font-display text-2xl font-bold text-bark-900">Jobs</h1>
-          <p className="text-bark-500">Manage and track all landscaping projects</p>
+          <h1 className="font-display text-2xl font-bold text-bark-900 dark:text-white">Jobs</h1>
+          <p className="text-bark-500 dark:text-bark-400">Manage and track all landscaping projects</p>
         </div>
         <Link
           href="/dashboard/jobs/new"
@@ -119,7 +119,7 @@ export default function JobsPage() {
       </div>
 
       {/* Search and Filters */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
         <div className="flex flex-col md:flex-row gap-4">
           <div className="relative flex-1">
             <MagnifyingGlassIcon className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-bark-400" />
@@ -128,7 +128,7 @@ export default function JobsPage() {
               placeholder="Search by title, client, or address..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-10 pr-4 py-3 border border-bark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              className="w-full pl-10 pr-4 py-3 border border-bark-200 dark:border-bark-600 dark:bg-bark-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
             />
           </div>
           <div className="flex items-center gap-2">
@@ -136,7 +136,7 @@ export default function JobsPage() {
             <select
               value={statusFilter}
               onChange={(e) => setStatusFilter(e.target.value)}
-              className="px-4 py-3 border border-bark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+              className="px-4 py-3 border border-bark-200 dark:border-bark-600 dark:bg-bark-700 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
             >
               <option value="all">All Status</option>
               <option value="pending">Pending</option>
@@ -150,21 +150,21 @@ export default function JobsPage() {
       </div>
 
       {/* Jobs List */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 overflow-hidden">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 overflow-hidden">
         {isLoading ? (
           <div className="p-12 text-center">
             <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600 mx-auto"></div>
-            <p className="text-bark-500 mt-4">Loading jobs...</p>
+            <p className="text-bark-500 dark:text-bark-400 mt-4">Loading jobs...</p>
           </div>
         ) : filteredJobs.length === 0 ? (
           <div className="p-12 text-center">
-            <div className="w-16 h-16 bg-bark-100 rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-bark-100 dark:bg-bark-700 rounded-full flex items-center justify-center mx-auto mb-4">
               <CalendarIcon className="w-8 h-8 text-bark-400" />
             </div>
-            <h3 className="font-semibold text-bark-900 mb-2">
+            <h3 className="font-semibold text-bark-900 dark:text-white mb-2">
               {searchTerm || statusFilter !== 'all' ? 'No jobs found' : 'No jobs yet'}
             </h3>
-            <p className="text-bark-500 mb-6">
+            <p className="text-bark-500 dark:text-bark-400 mb-6">
               {searchTerm || statusFilter !== 'all'
                 ? 'Try adjusting your search or filter' 
                 : 'Create your first job to get started'}
@@ -176,27 +176,27 @@ export default function JobsPage() {
             )}
           </div>
         ) : (
-          <div className="divide-y divide-bark-100">
+          <div className="divide-y divide-bark-100 dark:divide-bark-700">
             {filteredJobs.map((job) => (
               <Link
                 key={job.id}
                 href={`/dashboard/jobs/${job.id}`}
-                className="block p-6 hover:bg-bark-50 transition-colors"
+                className="block p-6 hover:bg-bark-50 dark:hover:bg-bark-700/50 transition-colors"
               >
                 <div className="flex items-start justify-between">
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
-                      <h3 className="font-semibold text-bark-900 text-lg">
+                      <h3 className="font-semibold text-bark-900 dark:text-white text-lg">
                         {job.title}
                       </h3>
                       <span className={`px-3 py-1 rounded-full text-xs font-medium ${statusColors[job.status]}`}>
                         {statusLabels[job.status]}
                       </span>
                     </div>
-                    <p className="text-bark-600 mb-3">
+                    <p className="text-bark-600 dark:text-bark-300 mb-3">
                       {job.client.firstName} {job.client.lastName} • {serviceLabels[job.serviceType] || job.serviceType}
                     </p>
-                    <div className="flex flex-wrap gap-4 text-sm text-bark-500">
+                    <div className="flex flex-wrap gap-4 text-sm text-bark-500 dark:text-bark-400">
                       <span className="flex items-center gap-1">
                         <CalendarIcon className="w-4 h-4" />
                         {formatDate(job.scheduledDate)}
@@ -216,10 +216,10 @@ export default function JobsPage() {
                   </div>
                   {job.estimatedCost && (
                     <div className="text-right">
-                      <p className="text-lg font-semibold text-bark-900">
+                      <p className="text-lg font-semibold text-bark-900 dark:text-white">
                         ${job.estimatedCost.toLocaleString()}
                       </p>
-                      <p className="text-xs text-bark-400">estimated</p>
+                      <p className="text-xs text-bark-400 dark:text-bark-500">estimated</p>
                     </div>
                   )}
                 </div>

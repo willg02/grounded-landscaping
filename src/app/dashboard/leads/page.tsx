@@ -126,12 +126,12 @@ export default function LeadsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
         <div>
-          <h1 className="font-display text-2xl font-bold text-bark-900">Leads</h1>
-          <p className="text-bark-500">Manage contact form submissions</p>
+          <h1 className="font-display text-2xl font-bold text-bark-900 dark:text-white">Leads</h1>
+          <p className="text-bark-500 dark:text-bark-400">Manage contact form submissions</p>
         </div>
         <button
           onClick={fetchLeads}
-          className="inline-flex items-center gap-2 px-4 py-2 text-bark-600 hover:text-bark-900 hover:bg-bark-100 rounded-lg transition-colors"
+          className="inline-flex items-center gap-2 px-4 py-2 text-bark-600 dark:text-bark-300 hover:text-bark-900 dark:hover:text-white hover:bg-bark-100 dark:hover:bg-bark-700 rounded-lg transition-colors"
         >
           <ArrowPathIcon className="w-5 h-5" />
           Refresh
@@ -140,32 +140,32 @@ export default function LeadsPage() {
 
       {/* Stats Cards */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
-          <p className="text-2xl font-bold text-bark-900">{leads.length}</p>
-          <p className="text-sm text-bark-500">Total Leads</p>
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
+          <p className="text-2xl font-bold text-bark-900 dark:text-white">{leads.length}</p>
+          <p className="text-sm text-bark-500 dark:text-bark-400">Total Leads</p>
         </div>
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
-          <p className="text-2xl font-bold text-yellow-600">
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
+          <p className="text-2xl font-bold text-yellow-600 dark:text-yellow-400">
             {leads.filter(l => l.status === 'new').length}
           </p>
-          <p className="text-sm text-bark-500">New</p>
+          <p className="text-sm text-bark-500 dark:text-bark-400">New</p>
         </div>
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
-          <p className="text-2xl font-bold text-blue-600">
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
+          <p className="text-2xl font-bold text-blue-600 dark:text-blue-400">
             {leads.filter(l => l.status === 'contacted').length}
           </p>
-          <p className="text-sm text-bark-500">Contacted</p>
+          <p className="text-sm text-bark-500 dark:text-bark-400">Contacted</p>
         </div>
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
-          <p className="text-2xl font-bold text-green-600">
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
+          <p className="text-2xl font-bold text-green-600 dark:text-green-400">
             {leads.filter(l => l.status === 'converted').length}
           </p>
-          <p className="text-sm text-bark-500">Converted</p>
+          <p className="text-sm text-bark-500 dark:text-bark-400">Converted</p>
         </div>
       </div>
 
       {/* Filters */}
-      <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-4">
+      <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-4">
         <div className="flex flex-col sm:flex-row gap-4">
           <div className="flex-1 relative">
             <MagnifyingGlassIcon className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-bark-400" />
@@ -193,15 +193,15 @@ export default function LeadsPage() {
 
       {/* Leads List */}
       {isLoading ? (
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-12 text-center">
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-12 text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary-600 mx-auto"></div>
-          <p className="text-bark-500 mt-4">Loading leads...</p>
+          <p className="text-bark-500 dark:text-bark-400 mt-4">Loading leads...</p>
         </div>
       ) : filteredLeads.length === 0 ? (
-        <div className="bg-white rounded-xl shadow-sm border border-bark-100 p-12 text-center">
-          <ChatBubbleLeftRightIcon className="w-12 h-12 text-bark-300 mx-auto mb-4" />
-          <p className="text-bark-500">No leads found</p>
-          <p className="text-sm text-bark-400 mt-1">
+        <div className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 p-12 text-center">
+          <ChatBubbleLeftRightIcon className="w-12 h-12 text-bark-300 dark:text-bark-600 mx-auto mb-4" />
+          <p className="text-bark-500 dark:text-bark-400">No leads found</p>
+          <p className="text-sm text-bark-400 dark:text-bark-500 mt-1">
             Leads will appear here when visitors submit the contact form
           </p>
         </div>
@@ -210,46 +210,46 @@ export default function LeadsPage() {
           {filteredLeads.map((lead) => (
             <div
               key={lead.id}
-              className="bg-white rounded-xl shadow-sm border border-bark-100 overflow-hidden"
+              className="bg-white dark:bg-bark-800 rounded-xl shadow-sm border border-bark-100 dark:border-bark-700 overflow-hidden"
             >
               <div className="p-6">
                 <div className="flex flex-col lg:flex-row lg:items-start gap-4">
                   {/* Lead Info */}
                   <div className="flex-1">
                     <div className="flex items-center gap-3 mb-2">
-                      <h3 className="font-semibold text-bark-900">{lead.name}</h3>
+                      <h3 className="font-semibold text-bark-900 dark:text-white">{lead.name}</h3>
                       <span className={`px-2 py-0.5 text-xs font-medium rounded-full ${statusColors[lead.status]}`}>
                         {statusLabels[lead.status]}
                       </span>
                       {lead.status === 'new' && (
-                        <span className="flex items-center gap-1 text-xs text-yellow-600">
+                        <span className="flex items-center gap-1 text-xs text-yellow-600 dark:text-yellow-400">
                           <ClockIcon className="w-3 h-3" />
                           Needs follow-up
                         </span>
                       )}
                     </div>
                     
-                    <div className="flex flex-wrap gap-4 text-sm text-bark-600 mb-3">
-                      <a href={`mailto:${lead.email}`} className="flex items-center gap-1 hover:text-primary-600">
+                    <div className="flex flex-wrap gap-4 text-sm text-bark-600 dark:text-bark-300 mb-3">
+                      <a href={`mailto:${lead.email}`} className="flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400">
                         <EnvelopeIcon className="w-4 h-4" />
                         {lead.email}
                       </a>
-                      <a href={`tel:${lead.phone}`} className="flex items-center gap-1 hover:text-primary-600">
+                      <a href={`tel:${lead.phone}`} className="flex items-center gap-1 hover:text-primary-600 dark:hover:text-primary-400">
                         <PhoneIcon className="w-4 h-4" />
                         {lead.phone}
                       </a>
-                      <span className="flex items-center gap-1 text-bark-400">
+                      <span className="flex items-center gap-1 text-bark-400 dark:text-bark-500">
                         <CalendarIcon className="w-4 h-4" />
                         {formatDate(lead.createdAt)}
                       </span>
                     </div>
 
-                    <div className="text-sm text-bark-500 mb-2">
-                      <span className="font-medium text-bark-700">Interested in:</span> {lead.service}
+                    <div className="text-sm text-bark-500 dark:text-bark-400 mb-2">
+                      <span className="font-medium text-bark-700 dark:text-bark-300">Interested in:</span> {lead.service}
                     </div>
 
-                    <div className="bg-bark-50 rounded-lg p-3">
-                      <p className="text-sm text-bark-600">{lead.message}</p>
+                    <div className="bg-bark-50 dark:bg-bark-700 rounded-lg p-3">
+                      <p className="text-sm text-bark-600 dark:text-bark-300">{lead.message}</p>
                     </div>
                   </div>
 
