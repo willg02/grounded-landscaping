@@ -1,0 +1,3655 @@
+[
+  {
+    "commonName": "River Birch",
+    "scientificName": "Betula nigra",
+    "genus": "Betula",
+    "species": "nigra",
+    "cultivar": "Dura Heat",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "heat-tolerant",
+      "wet-soil-tolerant",
+      "exfoliating-bark",
+      "multi-stem"
+    ],
+    "matureHeightMin": 30,
+    "matureHeightMax": 40,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun",
+      "part-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "moist"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [],
+    "form": "upright, multi-stem",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer",
+      "heat"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "shade",
+      "accent"
+    ],
+    "notes": "Tolerates wet soils; exfoliating bark; heat-tolerant selection. A heat-adapted river birch with beautiful peeling bark and strong resistance to leaf spot, ideal for tough Southern landscapes."
+  },
+  {
+    "commonName": "European Hornbeam",
+    "scientificName": "Carpinus betulus",
+    "genus": "Carpinus",
+    "species": "betulus",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "screening",
+      "hedging",
+      "formal",
+      "dense-branching"
+    ],
+    "matureHeightMin": 30,
+    "matureHeightMax": 40,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [],
+    "form": "dense, oval to rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought-moderate"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "screen",
+      "hedge",
+      "specimen",
+      "foundation"
+    ],
+    "notes": "Excellent for screening, hedging, and formal landscapes. A refined, durable tree with dense branching and smooth gray bark, perfect for structured or architectural plantings."
+  },
+  {
+    "commonName": "Fastigiata Hornbeam",
+    "scientificName": "Carpinus betulus",
+    "genus": "Carpinus",
+    "species": "betulus",
+    "cultivar": "Fastigiata",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "columnar",
+      "narrow",
+      "formal",
+      "architectural"
+    ],
+    "matureHeightMin": 30,
+    "matureHeightMax": 40,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [],
+    "form": "columnar",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "screen",
+      "hedge",
+      "accent",
+      "border"
+    ],
+    "notes": "Ideal for tight spaces, allees, and formal screens. A stately, columnar hornbeam with dense foliage and a clean architectural form that holds its shape beautifully."
+  },
+  {
+    "commonName": "Tuscarora Crape Myrtle",
+    "scientificName": "Lagerstroemia indica",
+    "genus": "Lagerstroemia",
+    "species": "indica",
+    "cultivar": "Tuscarora",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "mildew-resistant",
+      "low-maintenance"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "coral-pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer",
+      "late-summer"
+    ],
+    "form": "upright, vase-shaped",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought",
+      "mildew"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Mildew-resistant; excellent summer color. A vibrant coral-pink crape myrtle with strong disease resistance and a graceful vase shape."
+  },
+  {
+    "commonName": "Twilight Crape Myrtle",
+    "scientificName": "Lagerstroemia indica",
+    "genus": "Lagerstroemia",
+    "species": "indica",
+    "cultivar": "Twilight",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "purple-flower",
+      "statement-plant"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "deep-purple"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "upright, rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "One of the truest purple-flowering crape myrtles. A standout purple-blooming crape myrtle with rich color and a strong, rounded canopy."
+  },
+  {
+    "commonName": "Muskogee Crape Myrtle",
+    "scientificName": "Lagerstroemia hybrid",
+    "genus": "Lagerstroemia",
+    "species": "hybrid",
+    "cultivar": "Muskogee",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "long-blooming",
+      "mildew-resistant"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "lavender"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer",
+      "late-summer"
+    ],
+    "form": "upright, spreading",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought",
+      "mildew"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "shade"
+    ],
+    "notes": "One of the longest-blooming crape myrtles. A vigorous, mildew-resistant crape myrtle with soft lavender blooms that persist for months."
+  },
+  {
+    "commonName": "Natchez Crape Myrtle",
+    "scientificName": "Lagerstroemia hybrid",
+    "genus": "Lagerstroemia",
+    "species": "hybrid",
+    "cultivar": "Natchez",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "exfoliating-bark",
+      "year-round-interest"
+    ],
+    "matureHeightMin": 25,
+    "matureHeightMax": 30,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 25,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer",
+      "late-summer"
+    ],
+    "form": "broad, arching",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "shade"
+    ],
+    "notes": "Famous cinnamon-colored exfoliating bark. A large, elegant crape myrtle with bright white blooms and striking cinnamon bark that provides year-round interest."
+  },
+  {
+    "commonName": "Tonto Crape Myrtle",
+    "scientificName": "Lagerstroemia indica",
+    "genus": "Lagerstroemia",
+    "species": "indica",
+    "cultivar": "Tonto",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "compact",
+      "mildew-resistant",
+      "summer-blooming"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 10,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "fuchsia-red"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought",
+      "mildew"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "accent",
+      "border",
+      "foundation",
+      "mass-planting"
+    ],
+    "notes": "Compact and mildew-resistant. A compact crape myrtle with vivid red blooms and excellent disease resistance, ideal for smaller landscapes."
+  },
+  {
+    "commonName": "Coral Magic Crape Myrtle",
+    "scientificName": "Lagerstroemia hybrid",
+    "genus": "Lagerstroemia",
+    "species": "hybrid",
+    "cultivar": "Coral Magic",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "compact",
+      "early-blooming",
+      "dense-foliage"
+    ],
+    "matureHeightMin": 6,
+    "matureHeightMax": 10,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "coral-pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange"
+    ],
+    "bloomSeason": [
+      "late-spring",
+      "summer"
+    ],
+    "form": "rounded, compact",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "accent",
+      "foundation",
+      "border",
+      "container"
+    ],
+    "notes": "Early blooming; dense foliage. A compact, early-blooming crape myrtle with bright coral flowers and a tidy, rounded habit."
+  },
+  {
+    "commonName": "Autaugaville Purple Crape Myrtle",
+    "scientificName": "Lagerstroemia indica",
+    "genus": "Lagerstroemia",
+    "species": "indica",
+    "cultivar": "Autaugaville",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "purple-flower",
+      "strong-color"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 12,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "deep-purple"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "upright, rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Strong purple coloration. A richly colored purple crape myrtle with a balanced, upright form and excellent summer performance."
+  },
+  {
+    "commonName": "Sioux Pink Crape Myrtle",
+    "scientificName": "Lagerstroemia indica",
+    "genus": "Lagerstroemia",
+    "species": "indica",
+    "cultivar": "Sioux",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "summer-blooming",
+      "mildew-resistant",
+      "refined"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "bright-pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "upright, oval",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought",
+      "mildew"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Excellent mildew resistance. A bright pink crape myrtle with strong disease resistance and a refined, upright habit."
+  },
+  {
+    "commonName": "Sun Valley Red Maple",
+    "scientificName": "Acer rubrum",
+    "genus": "Acer",
+    "species": "rubrum",
+    "cultivar": "Sun Valley",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "seedless",
+      "fall-color",
+      "symmetrical"
+    ],
+    "matureHeightMin": 40,
+    "matureHeightMax": 50,
+    "matureSpreadMin": 30,
+    "matureSpreadMax": 40,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "moist",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "red"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "red"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "oval",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen",
+      "accent"
+    ],
+    "notes": "Seedless; brilliant red fall color. A seedless red maple known for its uniform shape and intense red fall foliage."
+  },
+  {
+    "commonName": "Legacy Sugar Maple",
+    "scientificName": "Acer saccharum",
+    "genus": "Acer",
+    "species": "saccharum",
+    "cultivar": "Legacy",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "heat-tolerant",
+      "fall-color",
+      "glossy-foliage"
+    ],
+    "matureHeightMin": 50,
+    "matureHeightMax": 60,
+    "matureSpreadMin": 35,
+    "matureSpreadMax": 40,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "yellow-green"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "golden",
+      "orange"
+    ],
+    "bloomSeason": [
+      "spring"
+    ],
+    "form": "broadly oval",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer",
+      "heat"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen"
+    ],
+    "notes": "Heat-tolerant sugar maple selection. A tough, heat-tolerant sugar maple with glossy foliage and outstanding golden-orange fall color."
+  },
+  {
+    "commonName": "Autumn Brilliance Serviceberry",
+    "scientificName": "Amelanchier grandiflora",
+    "genus": "Amelanchier",
+    "species": "grandiflora",
+    "cultivar": "Autumn Brilliance",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "four-season",
+      "edible-berries",
+      "fall-color",
+      "multi-stem"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "red",
+      "orange"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "upright, multi-stem",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Edible berries; exceptional red-orange fall color. A four-season native tree with early white blooms, edible berries, and brilliant fall color."
+  },
+  {
+    "commonName": "Venus Dogwood",
+    "scientificName": "Cornus kousa x nuttallii",
+    "genus": "Cornus",
+    "species": "kousa x nuttallii",
+    "cultivar": "Venus",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "disease-resistant",
+      "large-blooms",
+      "show-stopping"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "red",
+      "purple"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "moderate-deer",
+      "disease"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Massive blooms; highly disease resistant. A show-stopping dogwood with enormous white blooms and excellent disease resistance."
+  },
+  {
+    "commonName": "Green Sleeves Dogwood",
+    "scientificName": "Cornus florida",
+    "genus": "Cornus",
+    "species": "florida",
+    "cultivar": "Green Sleeves",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "unique-bloom",
+      "understory"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "slow",
+    "sunExposure": [
+      "part-shade",
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic",
+      "moist"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "greenish-white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "red"
+    ],
+    "bloomSeason": [
+      "spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "foundation"
+    ],
+    "notes": "Unique green-tinted blooms. A distinctive flowering dogwood with soft green-tinted bracts that mature to creamy white."
+  },
+  {
+    "commonName": "Weeping Willow",
+    "scientificName": "Salix babylonica",
+    "genus": "Salix",
+    "species": "babylonica",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "fast-growing",
+      "wet-soil-tolerant",
+      "graceful"
+    ],
+    "matureHeightMin": 30,
+    "matureHeightMax": 40,
+    "matureSpreadMin": 30,
+    "matureSpreadMax": 40,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "high",
+    "soilType": [
+      "loam",
+      "clay",
+      "moist"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [],
+    "form": "weeping",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "shade"
+    ],
+    "notes": "Thrives in wet soils; fast-growing. A graceful, fast-growing tree with long, pendulous branches that thrive in moist areas."
+  },
+  {
+    "commonName": "Nuttall Oak",
+    "scientificName": "Quercus texana",
+    "genus": "Quercus",
+    "species": "texana",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "fast-growing",
+      "fall-color",
+      "adaptable"
+    ],
+    "matureHeightMin": 40,
+    "matureHeightMax": 60,
+    "matureSpreadMin": 25,
+    "matureSpreadMax": 35,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "moist",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "red"
+    ],
+    "bloomSeason": [],
+    "form": "upright, oval",
+    "pollinators": [],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen"
+    ],
+    "notes": "Fast-growing; excellent red fall color. A strong, adaptable oak with fast growth and vibrant red fall foliage."
+  },
+  {
+    "commonName": "Everclear Elm",
+    "scientificName": "Ulmus parvifolia",
+    "genus": "Ulmus",
+    "species": "parvifolia",
+    "cultivar": "Emer II",
+    "trademark": "Everclear®",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "columnar",
+      "disease-resistant",
+      "street-tree",
+      "mottled-bark"
+    ],
+    "matureHeightMin": 35,
+    "matureHeightMax": 45,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [],
+    "form": "columnar",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought",
+      "disease"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "screen",
+      "specimen",
+      "accent"
+    ],
+    "notes": "Highly disease resistant; excellent street tree. A narrow, upright Chinese elm with exceptional disease resistance and attractive mottled bark."
+  },
+  {
+    "commonName": "Yoshino Cherry",
+    "scientificName": "Prunus yedoensis",
+    "genus": "Prunus",
+    "species": "yedoensis",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "spring-blooming",
+      "mass-bloom",
+      "iconic"
+    ],
+    "matureHeightMin": 25,
+    "matureHeightMax": 35,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pale-pink",
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded, spreading",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Famous for mass spring bloom. A beloved flowering cherry known for its clouds of pale pink blooms in early spring."
+  },
+  {
+    "commonName": "Kwanzan Cherry",
+    "scientificName": "Prunus serrulata",
+    "genus": "Prunus",
+    "species": "serrulata",
+    "cultivar": "Kwanzan",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "double-bloom",
+      "spring-blooming",
+      "showy"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 30,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 25,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "yellow"
+    ],
+    "bloomSeason": [
+      "spring"
+    ],
+    "form": "upright, vase-shaped",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Double blooms resemble pom-poms. A showy cherry tree with large, double pink blossoms that create a dramatic spring display."
+  },
+  {
+    "commonName": "Autumnalis Cherry",
+    "scientificName": "Prunus subhirtella",
+    "genus": "Prunus",
+    "species": "subhirtella",
+    "cultivar": "Autumnalis",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "twice-blooming",
+      "fall-blooming",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 30,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 25,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "fall",
+      "spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Blooms twice a year. A unique cherry that flowers lightly in fall and again in spring, extending the bloom season."
+  },
+  {
+    "commonName": "Peggy Clarke Apricot",
+    "scientificName": "Prunus mume",
+    "genus": "Prunus",
+    "species": "mume",
+    "cultivar": "Peggy Clarke",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "winter-blooming",
+      "fragrant",
+      "early-interest"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "rose-pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "winter"
+    ],
+    "form": "upright, rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Highly fragrant winter blooms. A winter-blooming apricot with intensely fragrant rose-pink flowers that appear before the leaves."
+  },
+  {
+    "commonName": "Pink Cascade Weeping Cherry",
+    "scientificName": "Prunus hybrid",
+    "genus": "Prunus",
+    "species": "hybrid",
+    "cultivar": "Pink Cascade",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "weeping",
+      "spring-blooming",
+      "compact",
+      "graceful"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 12,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "soft-pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "weeping",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Graceful cascading branches. A compact weeping cherry with soft pink spring blooms and elegant, fountain-like branching."
+  },
+  {
+    "commonName": "Snow Fountain Weeping Cherry",
+    "scientificName": "Prunus hybrid",
+    "genus": "Prunus",
+    "species": "hybrid",
+    "cultivar": "Snofozam",
+    "trademark": "Snow Fountains®",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "weeping",
+      "spring-blooming",
+      "compact",
+      "heavy-bloom"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 12,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow",
+      "orange"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "weeping",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Heavy spring bloom; compact form. A popular weeping cherry with cascading branches covered in pure white spring flowers."
+  },
+  {
+    "commonName": "Hearts of Gold Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Hearts of Gold",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "golden-foliage",
+      "spring-blooming",
+      "colorful-foliage"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "lavender-pink"
+    ],
+    "foliageColor": [
+      "golden"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Bright golden new foliage. A colorful redbud with lavender spring blooms and brilliant golden foliage that holds color well."
+  },
+  {
+    "commonName": "Zig Zag Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Zig Zag",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "architectural",
+      "unique-branching",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 12,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "irregular",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Unique architectural branching. A distinctive redbud with quirky, angular branching and classic pink spring blooms."
+  },
+  {
+    "commonName": "Appalachian Red Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Appalachian Red",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "vivid-bloom",
+      "spring-blooming",
+      "showy"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "magenta-red"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "One of the brightest redbud bloom colors. A striking redbud known for its intensely vivid magenta-red spring flowers."
+  },
+  {
+    "commonName": "Merlot Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Merlot",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "burgundy-foliage",
+      "drought-tolerant",
+      "compact"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 12,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "rosy-pink"
+    ],
+    "foliageColor": [
+      "burgundy"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Glossy burgundy foliage; drought tolerant. A compact redbud with glossy, wine-colored foliage and rosy-pink blooms."
+  },
+  {
+    "commonName": "Eastern Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "native",
+      "pollinator",
+      "spring-blooming",
+      "early-bloom"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 30,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Native; early pollinator resource. A beloved native tree with early pink blooms that appear before the foliage."
+  },
+  {
+    "commonName": "Ruby Falls Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Ruby Falls",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "weeping",
+      "burgundy-foliage",
+      "compact",
+      "dwarf"
+    ],
+    "matureHeightMin": 6,
+    "matureHeightMax": 8,
+    "matureSpreadMin": 5,
+    "matureSpreadMax": 6,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "purple-pink"
+    ],
+    "foliageColor": [
+      "burgundy"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "weeping",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Deep burgundy foliage. A compact weeping redbud with cascading branches and rich burgundy foliage."
+  },
+  {
+    "commonName": "Flame Thrower Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "NC2016-2",
+    "trademark": "Flame Thrower®",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "multicolor-foliage",
+      "spring-blooming",
+      "rainbow-effect"
+    ],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 12,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "red",
+      "orange",
+      "yellow",
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Multicolored foliage: red, orange, yellow, and green. A spectacular redbud with constantly changing foliage colors, creating a rainbow effect through the season."
+  },
+  {
+    "commonName": "Hearts A' Fire Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Hearts A' Fire",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "red-new-growth",
+      "spring-blooming",
+      "colorful-foliage"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 12,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "red",
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Bright red new growth. A colorful redbud with vivid red new foliage that matures to deep green."
+  },
+  {
+    "commonName": "Garden Gems Amethyst Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Garden Gems Amethyst",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "compact",
+      "dwarf-series",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 10,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink-purple"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "compact, rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Part of the Garden Gems dwarf series. A compact redbud with vibrant pink-purple blooms and a tidy, rounded habit ideal for small landscapes."
+  },
+  {
+    "commonName": "Green Machine Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Green Machine",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "vigorous",
+      "bright-foliage",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 12,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "bright-green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer",
+      "drought-moderate"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Bright green foliage; vigorous grower. A vigorous redbud with clean, bright green foliage and classic pink spring blooms."
+  },
+  {
+    "commonName": "Garden Gems Emerald Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Garden Gems Emerald",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "dwarf",
+      "compact",
+      "dwarf-series",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 10,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "compact, rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Dwarf habit; excellent for small gardens. A dwarf redbud with a compact form and bright pink blooms, perfect for tight spaces."
+  },
+  {
+    "commonName": "Golden Falls Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Golden Falls",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "columnar",
+      "weeping",
+      "golden-foliage",
+      "narrow"
+    ],
+    "matureHeightMin": 10,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 3,
+    "matureSpreadMax": 4,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "golden"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "columnar, weeping",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Golden foliage; extremely narrow habit. A striking columnar redbud with golden foliage and a narrow, cascading form ideal for tight vertical spaces."
+  },
+  {
+    "commonName": "Carolina Sweetheart Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "NCCC1",
+    "trademark": "Carolina Sweetheart®",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "variegated-foliage",
+      "multicolor",
+      "spring-blooming",
+      "showy"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 15,
+    "matureSpreadMax": 20,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "pink",
+      "white",
+      "burgundy",
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Multicolored foliage: pink, white, burgundy, and green. A showy redbud with stunning variegated foliage that shifts through pink, burgundy, and green tones."
+  },
+  {
+    "commonName": "Forest Pansy Redbud",
+    "scientificName": "Cercis canadensis",
+    "genus": "Cercis",
+    "species": "canadensis",
+    "cultivar": "Forest Pansy",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "purple-foliage",
+      "spring-blooming",
+      "classic"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 25,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "rosy-pink"
+    ],
+    "foliageColor": [
+      "burgundy",
+      "purple"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Deep purple foliage in spring. A classic purple-leaf redbud with rich burgundy foliage and abundant rosy-pink blooms."
+  },
+  {
+    "commonName": "Mariken Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "genus": "Ginkgo",
+    "species": "biloba",
+    "cultivar": "Mariken",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "dwarf",
+      "compact",
+      "fall-color",
+      "slow-growing"
+    ],
+    "matureHeightMin": 2,
+    "matureHeightMax": 3,
+    "matureSpreadMin": 3,
+    "matureSpreadMax": 4,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "golden"
+    ],
+    "bloomSeason": [],
+    "form": "compact, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "container",
+      "accent",
+      "foundation"
+    ],
+    "notes": "Slow-growing dwarf form. A miniature ginkgo with dense branching and bright golden fall color, ideal for small spaces or containers."
+  },
+  {
+    "commonName": "Autumn Gold Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "genus": "Ginkgo",
+    "species": "biloba",
+    "cultivar": "Autumn Gold",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "male-selection",
+      "fall-color",
+      "symmetrical"
+    ],
+    "matureHeightMin": 40,
+    "matureHeightMax": 50,
+    "matureSpreadMin": 30,
+    "matureSpreadMax": 40,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "golden"
+    ],
+    "bloomSeason": [],
+    "form": "broadly pyramidal",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen"
+    ],
+    "notes": "Male selection; brilliant fall color. A stately male ginkgo known for its symmetrical form and intense golden fall foliage."
+  },
+  {
+    "commonName": "Chinese Pistache",
+    "scientificName": "Pistacia chinensis",
+    "genus": "Pistacia",
+    "species": "chinensis",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "heat-tolerant",
+      "drought-tolerant",
+      "fall-color"
+    ],
+    "matureHeightMin": 30,
+    "matureHeightMax": 40,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "low",
+    "soilType": [
+      "loam",
+      "clay",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "orange",
+      "red"
+    ],
+    "bloomSeason": [],
+    "form": "rounded, spreading",
+    "pollinators": [],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "deer",
+      "drought",
+      "heat"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen"
+    ],
+    "notes": "Exceptional fall color; heat tolerant. A tough, drought-tolerant tree prized for its brilliant orange-red fall foliage."
+  },
+  {
+    "commonName": "Moonglow Sweetbay Magnolia",
+    "scientificName": "Magnolia virginiana",
+    "genus": "Magnolia",
+    "species": "virginiana",
+    "cultivar": "Moonglow",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "fragrant",
+      "evergreen",
+      "multi-stem",
+      "wet-soil-tolerant"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 30,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "moist",
+      "acidic"
+    ],
+    "evergreenOrDecid": "evergreen",
+    "flowerColor": [
+      "creamy-white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [],
+    "bloomSeason": [
+      "late-spring",
+      "summer"
+    ],
+    "form": "upright, multi-stem",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "screen",
+      "accent"
+    ],
+    "notes": "Semi-evergreen to evergreen in the South. A fragrant, semi-evergreen magnolia with upright multi-stem form and creamy white blooms."
+  },
+  {
+    "commonName": "Jane Magnolia",
+    "scientificName": "Magnolia hybrid",
+    "genus": "Magnolia",
+    "species": "hybrid",
+    "cultivar": "Jane",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "late-blooming",
+      "compact",
+      "frost-resistant-bloom"
+    ],
+    "matureHeightMin": 10,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 12,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "purple-red",
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "foundation"
+    ],
+    "notes": "Late blooming avoids frost damage. A compact magnolia with tulip-shaped purple-red blooms that open later than most magnolias."
+  },
+  {
+    "commonName": "Ann Magnolia",
+    "scientificName": "Magnolia hybrid",
+    "genus": "Magnolia",
+    "species": "hybrid",
+    "cultivar": "Ann",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "compact",
+      "late-blooming",
+      "frost-resistant-bloom"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 10,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "reddish-purple"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "foundation",
+      "container"
+    ],
+    "notes": "Compact; late blooming. A small magnolia with deep reddish-purple blooms that appear later in spring, reducing frost risk."
+  },
+  {
+    "commonName": "Centennial Blush Magnolia",
+    "scientificName": "Magnolia stellata",
+    "genus": "Magnolia",
+    "species": "stellata",
+    "cultivar": "Centennial Blush",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "star-magnolia",
+      "heavy-bloomer",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 18,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "early-spring"
+    ],
+    "form": "upright, oval",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Heavy bloomer. A prolific blooming star magnolia with soft pink flowers that cover the branches in early spring."
+  },
+  {
+    "commonName": "Judy Zuk Magnolia",
+    "scientificName": "Magnolia hybrid",
+    "genus": "Magnolia",
+    "species": "hybrid",
+    "cultivar": "Judy Zuk",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "yellow-flower",
+      "rare",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 20,
+    "matureHeightMax": 25,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "yellow",
+      "orange"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "spring"
+    ],
+    "form": "upright, pyramidal",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Rare yellow magnolia. A striking magnolia with yellow-orange blooms and a narrow, upright form."
+  },
+  {
+    "commonName": "Debonair Bald Cypress",
+    "scientificName": "Taxodium distichum",
+    "genus": "Taxodium",
+    "species": "distichum",
+    "cultivar": "Debonair",
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "adaptable",
+      "wet-soil-tolerant",
+      "drought-tolerant",
+      "feathery-foliage"
+    ],
+    "matureHeightMin": 40,
+    "matureHeightMax": 50,
+    "matureSpreadMin": 20,
+    "matureSpreadMax": 30,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "clay",
+      "moist",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "copper",
+      "orange"
+    ],
+    "bloomSeason": [],
+    "form": "pyramidal",
+    "pollinators": [],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "deer",
+      "drought"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "shade",
+      "specimen"
+    ],
+    "notes": "Tolerates wet or dry soils. A refined bald cypress with soft, feathery foliage and excellent adaptability to wet or dry conditions."
+  },
+  {
+    "commonName": "Fragrant Fountain Japanese Snowbell",
+    "scientificName": "Styrax japonicus",
+    "genus": "Styrax",
+    "species": "japonicus",
+    "cultivar": "Fragrant Fountain",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "weeping",
+      "fragrant",
+      "compact",
+      "dwarf"
+    ],
+    "matureHeightMin": 6,
+    "matureHeightMax": 8,
+    "matureSpreadMin": 4,
+    "matureSpreadMax": 6,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "weeping",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "container"
+    ],
+    "notes": "Highly fragrant blooms. A compact weeping snowbell with cascading branches and intensely fragrant white flowers."
+  },
+  {
+    "commonName": "Marley's Pink Parasol Styrax",
+    "scientificName": "Styrax japonicus",
+    "genus": "Styrax",
+    "species": "japonicus",
+    "cultivar": "Marley's Pink Parasol",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "pink-flower",
+      "rare",
+      "bell-shaped-bloom"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 10,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "pink"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Rare pink-flowering snowbell. A charming snowbell with soft pink bell-shaped blooms that hang delicately from the branches."
+  },
+  {
+    "commonName": "Evening Light Styrax",
+    "scientificName": "Styrax japonicus",
+    "genus": "Styrax",
+    "species": "japonicus",
+    "cultivar": "Evening Light",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "purple-foliage",
+      "contrast",
+      "bell-shaped-bloom"
+    ],
+    "matureHeightMin": 8,
+    "matureHeightMax": 10,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "purple"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Dark purple foliage. A dramatic snowbell with deep purple foliage that contrasts beautifully with its white bell-shaped blooms."
+  },
+  {
+    "commonName": "Snowcone Styrax",
+    "scientificName": "Styrax japonicus",
+    "genus": "Styrax",
+    "species": "japonicus",
+    "cultivar": "Snowcone",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "heavy-bloomer",
+      "compact",
+      "bell-shaped-bloom"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "upright, oval",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Heavy bloomer. A compact snowbell with masses of white bell-shaped flowers that cover the branches in late spring."
+  },
+  {
+    "commonName": "Nightfall Styrax",
+    "scientificName": "Styrax japonicus",
+    "genus": "Styrax",
+    "species": "japonicus",
+    "cultivar": "Nightfall",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": [
+      "dark-foliage",
+      "compact",
+      "bell-shaped-bloom"
+    ],
+    "matureHeightMin": 10,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "acidic"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "dark-green",
+      "purple"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "upright, oval",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "moderate-deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent"
+    ],
+    "notes": "Dark foliage; compact habit. A compact snowbell with dark foliage and abundant white blooms that contrast beautifully against the leaves."
+  },
+  {
+    "commonName": "White Fringetree",
+    "scientificName": "Chionanthus virginicus",
+    "genus": "Chionanthus",
+    "species": "virginicus",
+    "cultivar": null,
+    "plantType": "tree",
+    "category": "native",
+    "tags": [
+      "native",
+      "fragrant",
+      "pollinator",
+      "spring-blooming"
+    ],
+    "matureHeightMin": 12,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "slow",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained",
+      "moist"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [
+      "yellow"
+    ],
+    "bloomSeason": [
+      "late-spring"
+    ],
+    "form": "rounded",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [
+      "birds"
+    ],
+    "resistances": [
+      "deer"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "specimen",
+      "accent",
+      "border"
+    ],
+    "notes": "Native; highly fragrant blooms. A native tree with clouds of fragrant white fringe-like flowers that appear in late spring."
+  },
+  {
+    "commonName": "Purple Ghost Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Purple Ghost",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "purple-foliage", "fall-color", "specimen"],
+    "matureHeightMin": 8,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["purple", "red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Ghost series maple with translucent purple foliage."
+  },
+  {
+    "commonName": "Fireglow Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Fireglow",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "red-foliage", "fall-color"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 12,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Bright red foliage with strong color retention."
+  },
+  {
+    "commonName": "Tsukasa Silhouette Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Tsukasa Silhouette",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "narrow", "upright"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 18,
+    "matureSpreadMin": 4,
+    "matureSpreadMax": 6,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, columnar",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["accent", "specimen"],
+    "notes": "Narrow, upright Japanese maple for tight spaces."
+  },
+  {
+    "commonName": "Crimson Queen Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Crimson Queen",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "laceleaf", "weeping", "red-foliage"],
+    "matureHeightMin": 6,
+    "matureHeightMax": 8,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "weeping",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Classic weeping laceleaf with deep red foliage."
+  },
+  {
+    "commonName": "Shaina Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Shaina",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "dwarf", "red-foliage"],
+    "matureHeightMin": 4,
+    "matureHeightMax": 6,
+    "matureSpreadMin": 4,
+    "matureSpreadMax": 6,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "compact, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["accent", "container", "specimen"],
+    "notes": "Compact red Japanese maple with dense habit."
+  },
+  {
+    "commonName": "Tamukeyama Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Tamukeyama",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "laceleaf", "weeping", "red-foliage"],
+    "matureHeightMin": 6,
+    "matureHeightMax": 8,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "weeping",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Weeping laceleaf with rich red foliage."
+  },
+  {
+    "commonName": "Okushimo Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Okushimo",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "upright", "fall-color"],
+    "matureHeightMin": 10,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["red", "orange"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Upright maple with curled leaf edges and strong fall color."
+  },
+  {
+    "commonName": "Seiryu Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Seiryu",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "laceleaf", "upright"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["gold", "orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, vase",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Upright laceleaf with graceful texture and strong fall color."
+  },
+  {
+    "commonName": "Coral Bark Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Sango-kaku",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "coral-bark", "winter-interest"],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 12,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["gold", "orange"],
+    "bloomSeason": ["spring"],
+    "form": "upright, vase",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Coral-red winter bark with bright fall color."
+  },
+  {
+    "commonName": "Emperor I Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Emperor I",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "red-foliage", "fall-color"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 12,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Strong red foliage; leafs out later than many red maples."
+  },
+  {
+    "commonName": "Autumn Moon Japanese Maple",
+    "scientificName": "Acer shirasawanum",
+    "genus": "Acer",
+    "species": "shirasawanum",
+    "cultivar": "Autumn Moon",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "full-moon", "colorful-foliage"],
+    "matureHeightMin": 8,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 12,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["gold", "orange", "red"],
+    "fallColor": ["orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Full-moon maple with dramatic color changes through the season."
+  },
+  {
+    "commonName": "Bloodgood Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Bloodgood",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "red-foliage", "fall-color"],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 12,
+    "matureSpreadMax": 15,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Classic red Japanese maple; strong color and form."
+  },
+  {
+    "commonName": "Shishigashira Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Shishigashira",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "lion-head", "upright", "compact"],
+    "matureHeightMin": 8,
+    "matureHeightMax": 12,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Lion's head maple with dense, crinkled leaves."
+  },
+  {
+    "commonName": "Inaba Shidare Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Inaba Shidare",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "laceleaf", "weeping", "red-foliage"],
+    "matureHeightMin": 6,
+    "matureHeightMax": 8,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["red"],
+    "fallColor": ["red"],
+    "bloomSeason": ["spring"],
+    "form": "weeping",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Weeping laceleaf with finely cut, deep red foliage."
+  },
+  {
+    "commonName": "Full Moon Japanese Maple",
+    "scientificName": "Acer japonicum",
+    "genus": "Acer",
+    "species": "japonicum",
+    "cultivar": "Full Moon",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "full-moon", "fall-color"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 18,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Full-moon maple with broad leaves and strong fall color."
+  },
+  {
+    "commonName": "Ryusen Weeping Japanese Maple",
+    "scientificName": "Acer palmatum",
+    "genus": "Acer",
+    "species": "palmatum",
+    "cultivar": "Ryusen",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["japanese-maple", "weeping", "upright", "unique-form"],
+    "matureHeightMin": 10,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "slow",
+    "sunExposure": ["part-sun", "part-shade"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist"],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [],
+    "foliageColor": ["green"],
+    "fallColor": ["orange", "red"],
+    "bloomSeason": ["spring"],
+    "form": "weeping, upright",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent"],
+    "notes": "Upright form with strongly weeping branches; striking architectural habit."
+  },
+  {
+    "commonName": "Arbequina Olive",
+    "scientificName": "Olea europaea",
+    "genus": "Olea",
+    "species": "europaea",
+    "cultivar": "Arbequina",
+    "plantType": "tree",
+    "category": "edible",
+    "tags": ["olive", "evergreen", "edible", "drought-tolerant"],
+    "matureHeightMin": 12,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 10,
+    "matureSpreadMax": 15,
+    "growthRate": "moderate",
+    "sunExposure": ["full-sun"],
+    "waterNeeds": "low",
+    "soilType": ["loam", "well-drained", "sand"],
+    "evergreenOrDecid": "evergreen",
+    "flowerColor": ["white"],
+    "foliageColor": ["green", "silver"],
+    "fallColor": [],
+    "bloomSeason": ["spring"],
+    "form": "upright, rounded",
+    "pollinators": [],
+    "wildlifeValue": [],
+    "resistances": ["drought"],
+    "commonSizes": [],
+    "designUses": ["specimen", "edible", "accent"],
+    "notes": "Compact, productive olive; popular for fruit and landscape use."
+  },
+  {
+    "commonName": "Little Gem Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "genus": "Magnolia",
+    "species": "grandiflora",
+    "cultivar": "Little Gem",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["magnolia", "evergreen", "fragrant", "southern-magnolia"],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "moderate",
+    "sunExposure": ["full-sun", "part-sun"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist", "acidic"],
+    "evergreenOrDecid": "evergreen",
+    "flowerColor": ["white"],
+    "foliageColor": ["green"],
+    "fallColor": [],
+    "bloomSeason": ["late-spring", "summer"],
+    "form": "upright, pyramidal",
+    "pollinators": ["bees"],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent", "screen"],
+    "notes": "Compact evergreen magnolia with large, fragrant blooms."
+  },
+  {
+    "commonName": "Teddy Bear Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "genus": "Magnolia",
+    "species": "grandiflora",
+    "cultivar": "Teddy Bear",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["magnolia", "evergreen", "fragrant", "southern-magnolia"],
+    "matureHeightMin": 15,
+    "matureHeightMax": 20,
+    "matureSpreadMin": 8,
+    "matureSpreadMax": 10,
+    "growthRate": "moderate",
+    "sunExposure": ["full-sun", "part-sun"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist", "acidic"],
+    "evergreenOrDecid": "evergreen",
+    "flowerColor": ["white"],
+    "foliageColor": ["green"],
+    "fallColor": [],
+    "bloomSeason": ["late-spring", "summer"],
+    "form": "upright, pyramidal",
+    "pollinators": ["bees"],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent", "screen"],
+    "notes": "Compact evergreen magnolia with thick leaves and fragrant blooms."
+  },
+  {
+    "commonName": "Serendipity Evergreen Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "genus": "Magnolia",
+    "species": "grandiflora",
+    "cultivar": "Serendipity",
+    "plantType": "tree",
+    "category": "ornamental",
+    "tags": ["magnolia", "evergreen", "fragrant", "southern-magnolia"],
+    "matureHeightMin": 10,
+    "matureHeightMax": 15,
+    "matureSpreadMin": 6,
+    "matureSpreadMax": 8,
+    "growthRate": "moderate",
+    "sunExposure": ["full-sun", "part-sun"],
+    "waterNeeds": "moderate",
+    "soilType": ["loam", "well-drained", "moist", "acidic"],
+    "evergreenOrDecid": "evergreen",
+    "flowerColor": ["white"],
+    "foliageColor": ["green"],
+    "fallColor": [],
+    "bloomSeason": ["late-spring", "summer"],
+    "form": "upright, pyramidal",
+    "pollinators": ["bees"],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": ["specimen", "accent", "screen"],
+    "notes": "Compact evergreen magnolia with dense habit and large blooms."
+  }
+]

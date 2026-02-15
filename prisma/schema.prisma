@@ -186,3 +186,75 @@ model ContactSubmission {
   status        String    @default("new") // new, contacted, converted, closed
   createdAt     DateTime  @default(now())
 }
+
+// ─── Plant & Cultivar Catalog ───────────────────────────────────────────────
+
+model Plant {
+  id              String    @id @default(cuid())
+
+  // Identification
+  commonName      String
+  scientificName  String?
+  genus           String?
+  species         String?
+  cultivar        String?   // e.g. 'Bloodgood', 'Emerald Green'
+  variety         String?   // botanical variety if different from cultivar
+  trademark       String?   // trademarked marketing name (e.g. Endless Summer®)
+
+  // Classification
+  plantType       String    // tree, shrub, perennial, annual, grass, groundcover, vine, fern, succulent, bulb, aquatic
+  category        String?   // native, ornamental, edible, pollinator, shade, specimen, etc.
+  tags            String[]  // flexible labels: deer-resistant, drought-tolerant, fragrant, low-maintenance, etc.
+
+  // Size & Growth
+  matureHeightMin Float?    // feet
+  matureHeightMax Float?
+  matureSpreadMin Float?    // feet
+  matureSpreadMax Float?
+  growthRate      String?   // slow, moderate, fast
+
+  // Growing Conditions
+  usdaZoneMin     Int?      // e.g. 5
+  usdaZoneMax     Int?      // e.g. 9
+  sunExposure     String[]  // full-sun, part-sun, part-shade, full-shade
+  waterNeeds      String?   // low, moderate, high
+  soilType        String[]  // clay, loam, sand, well-drained, moist, acidic, alkaline
+  soilPH          String?   // acidic, neutral, alkaline
+
+  // Visual / Design Attributes
+  flowerColor     String[]  // white, pink, red, etc.
+  foliageColor    String[]  // green, blue-green, burgundy, variegated, etc.
+  fallColor       String[]
+  bloomSeason     String[]  // early-spring, spring, late-spring, summer, fall, winter
+  texture         String?   // fine, medium, coarse
+  form            String?   // rounded, columnar, pyramidal, weeping, spreading, vase, irregular
+  evergreenOrDecid String?  // evergreen, semi-evergreen, deciduous
+
+  // Practical Info
+  nativeTo        String?   // region or geographic origin
+  pollinators     String[]  // bees, butterflies, hummingbirds, etc.
+  wildlifeValue   String[]  // birds, deer-browse, etc.
+  resistances     String[]  // deer, rabbit, disease, drought, salt, etc.
+  toxicity        String?   // non-toxic, toxic-to-pets, toxic-to-humans
+
+  // Business / Inventory
+  commonSizes     String[]  // 1-gal, 3-gal, 5-gal, 7-gal, 15-gal, B&B, bare-root
+  avgCost         Float?    // typical wholesale cost
+  retailPrice     Float?    // typical retail / install price
+  supplier        String?
+  availability    String?   // common, seasonal, specialty, rare
+  notes           String?   // free-form internal notes
+  imageUrl        String?
+
+  // Design usage
+  designUses      String[]  // foundation, border, accent, mass-planting, hedge, screen, specimen, rain-garden, container, slope-stabilization
+
+  // Meta
+  isActive        Boolean   @default(true)
+  createdAt       DateTime  @default(now())
+  updatedAt       DateTime  @updatedAt
+
+  @@unique([scientificName, cultivar])
+  @@index([plantType])
+  @@index([commonName])
+}

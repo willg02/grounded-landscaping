@@ -1,0 +1,219 @@
+[
+  {
+    "commonName": "African Blue Basil",
+    "scientificName": "Ocimum kilimandscharicum x basilicum",
+    "genus": "Ocimum",
+    "species": "kilimandscharicum x basilicum",
+    "cultivar": "African Blue",
+    "plantType": "annual",
+    "category": "edible",
+    "tags": [
+      "herb",
+      "pollinator",
+      "sterile-hybrid",
+      "long-blooming"
+    ],
+    "matureHeightMin": 2,
+    "matureHeightMax": 4,
+    "matureSpreadMin": 2,
+    "matureSpreadMax": 3,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "purple",
+      "blue"
+    ],
+    "foliageColor": [
+      "green",
+      "purple"
+    ],
+    "fallColor": [],
+    "bloomSeason": [
+      "summer",
+      "fall"
+    ],
+    "form": "upright, bushy",
+    "pollinators": [
+      "bees",
+      "butterflies"
+    ],
+    "wildlifeValue": [],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "border",
+      "container",
+      "mass-planting"
+    ],
+    "notes": "Sterile hybrid; blooms continuously without going to seed. A top pollinator plant with ornamental purple-veined foliage."
+  },
+  {
+    "commonName": "Prospera Basil",
+    "scientificName": "Ocimum basilicum",
+    "genus": "Ocimum",
+    "species": "basilicum",
+    "cultivar": "Prospera",
+    "plantType": "annual",
+    "category": "edible",
+    "tags": [
+      "herb",
+      "downy-mildew-resistant",
+      "culinary"
+    ],
+    "matureHeightMin": 1.5,
+    "matureHeightMax": 2,
+    "matureSpreadMin": 1,
+    "matureSpreadMax": 1.5,
+    "growthRate": "fast",
+    "sunExposure": [
+      "full-sun"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "white"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "upright, bushy",
+    "pollinators": [
+      "bees"
+    ],
+    "wildlifeValue": [],
+    "resistances": [
+      "downy-mildew"
+    ],
+    "commonSizes": [],
+    "designUses": [
+      "container",
+      "border"
+    ],
+    "notes": "Downy mildew resistant sweet basil. A breakthrough culinary basil that stays healthy when others succumb to disease."
+  },
+  {
+    "commonName": "Curled Parsley",
+    "scientificName": "Petroselinum crispum",
+    "genus": "Petroselinum",
+    "species": "crispum",
+    "variety": "crispum",
+    "cultivar": null,
+    "plantType": "biennial",
+    "category": "edible",
+    "tags": [
+      "herb",
+      "culinary",
+      "biennial"
+    ],
+    "matureHeightMin": 0.75,
+    "matureHeightMax": 1,
+    "matureSpreadMin": 0.75,
+    "matureSpreadMax": 1,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "yellow-green"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "compact, mounding",
+    "pollinators": [
+      "butterflies"
+    ],
+    "wildlifeValue": [
+      "butterflies"
+    ],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "container",
+      "border"
+    ],
+    "notes": "Tightly curled leaves; biennial grown as annual. Host plant for swallowtail butterflies."
+  },
+  {
+    "commonName": "Italian Parsley",
+    "scientificName": "Petroselinum crispum",
+    "genus": "Petroselinum",
+    "species": "crispum",
+    "variety": "neapolitanum",
+    "cultivar": null,
+    "plantType": "biennial",
+    "category": "edible",
+    "tags": [
+      "herb",
+      "culinary",
+      "biennial",
+      "flat-leaf"
+    ],
+    "matureHeightMin": 1,
+    "matureHeightMax": 1.5,
+    "matureSpreadMin": 0.75,
+    "matureSpreadMax": 1,
+    "growthRate": "moderate",
+    "sunExposure": [
+      "full-sun",
+      "part-shade"
+    ],
+    "waterNeeds": "moderate",
+    "soilType": [
+      "loam",
+      "well-drained"
+    ],
+    "evergreenOrDecid": "deciduous",
+    "flowerColor": [
+      "yellow-green"
+    ],
+    "foliageColor": [
+      "green"
+    ],
+    "fallColor": [],
+    "bloomSeason": [
+      "summer"
+    ],
+    "form": "upright, mounding",
+    "pollinators": [
+      "butterflies"
+    ],
+    "wildlifeValue": [
+      "butterflies"
+    ],
+    "resistances": [],
+    "commonSizes": [],
+    "designUses": [
+      "container",
+      "border"
+    ],
+    "notes": "Flat-leaf variety; stronger flavor than curled. Preferred culinary parsley; host plant for swallowtails."
+  }
+]
