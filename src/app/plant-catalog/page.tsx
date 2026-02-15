@@ -41,11 +41,27 @@ export default async function PlantCatalogPage() {
     },
   }
 
+  // Create a compact catalog for embedding in HTML
+  const catalogJson = {
+    generatedAt,
+    total,
+    byFile,
+    items,
+  }
+
   return (
     <main className="min-h-screen bg-white dark:bg-bark-900">
+      {/* Schema.org JSON-LD */}
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      
+      {/* Embedded plant catalog data for Bing crawling */}
+      <script
+        type="application/json"
+        id="plants-catalog-data"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(catalogJson) }}
       />
 
       <div className="container mx-auto px-6 py-16">
@@ -100,21 +116,33 @@ export default async function PlantCatalogPage() {
             </h2>
 
             <div className="space-y-4">
-              <div className="rounded-lg border border-bark-200 bg-bark-50 p-4 dark:border-bark-700 dark:bg-bark-800">
-                <p className="font-semibold text-bark-900 dark:text-white">Copilot, ChatGPT, Claude</p>
+              <div className="rounded-lg border border-primary-200 bg-primary-50 p-4 dark:border-primary-700 dark:bg-primary-900/20">
+                <p className="font-semibold text-bark-900 dark:text-white">✓ For Copilot, ChatGPT, Claude</p>
                 <p className="mt-2 text-sm text-bark-600 dark:text-bark-300">
-                  "Use this plant catalog only: https://grounded-landscaping.vercel.app/api/plants.json. 
-                  Create a pollinator garden with native shrubs and perennials. List exact cultivars from the catalog."
+                  Share this page link with your AI tool:
+                </p>
+                <p className="mt-1 font-mono text-xs text-primary-700 dark:text-primary-300 break-all">
+                  https://grounded-landscaping.vercel.app/plant-catalog
+                </p>
+                <p className="mt-2 text-sm text-bark-600 dark:text-bark-300">
+                  Then ask: "Using the Grounded Landscaping plant catalog from that page, create a pollinator garden with native shrubs and perennials. List exact cultivars."
                 </p>
               </div>
 
               <div className="rounded-lg border border-bark-200 bg-bark-50 p-4 dark:border-bark-700 dark:bg-bark-800">
-                <p className="font-semibold text-bark-900 dark:text-white">Programmatic Access</p>
+                <p className="font-semibold text-bark-900 dark:text-white">Programmatic Access (JavaScript)</p>
                 <p className="mt-2 text-sm text-bark-600 dark:text-bark-300">
-                  Fetch JSON and parse by plantType, sunExposure, waterNeeds, tags, or search text.
+                  Extract the embedded catalog data or fetch from the API endpoint.
                 </p>
                 <pre className="mt-3 overflow-x-auto rounded bg-bark-900 p-3 text-xs text-bark-50 dark:bg-bark-950">
-                  {`fetch('https://grounded-landscaping.vercel.app/api/plants.json')
+                  {`// From embedded data
+const data = JSON.parse(
+  document.getElementById('plants-catalog-data').textContent
+);
+console.log(data.items);
+
+// Or fetch from API
+fetch('/api/plants.json')
   .then(r => r.json())
   .then(data => console.log(data.items))`}
                 </pre>
