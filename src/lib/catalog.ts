@@ -1,9 +1,19 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
+export type CatalogItem = {
+  commonName?: string
+  scientificName?: string
+  cultivar?: string | null
+  plantType?: string
+  sunExposure?: string[]
+  waterNeeds?: string
+  tags?: string[]
+}
+
 type CatalogResult = {
   generatedAt: string
-  items: unknown[]
+  items: CatalogItem[]
   total: number
   byFile: Record<string, number>
 }
@@ -16,16 +26,17 @@ export async function loadCatalog(): Promise<CatalogResult> {
     .sort()
 
   const byFile: Record<string, number> = {}
-  const items: unknown[] = []
+  const items: CatalogItem[] = []
 
   for (const fileName of plantFiles) {
     const filePath = path.join(dataDir, fileName)
     const raw = await fs.readFile(filePath, 'utf8')
-    const parsed = JSON.parse(raw)
+    const parsed = JSON.parse(raw) as unknown
 
     if (Array.isArray(parsed)) {
-      byFile[fileName] = parsed.length
-      items.push(...parsed)
+      const catalogItems = parsed as CatalogItem[]
+      byFile[fileName] = catalogItems.length
+      items.push(...catalogItems)
     } else {
       byFile[fileName] = 0
     }

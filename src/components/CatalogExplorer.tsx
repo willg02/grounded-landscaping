@@ -1,16 +1,7 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-
-type CatalogItem = {
-  commonName?: string
-  scientificName?: string
-  cultivar?: string | null
-  plantType?: string
-  sunExposure?: string[]
-  waterNeeds?: string
-  tags?: string[]
-}
+import type { CatalogItem } from '@/lib/catalog'
 
 type CatalogExplorerProps = {
   items: CatalogItem[]
