@@ -106,6 +106,14 @@ export default function Navbar() {
           {/* CTA Button */}
           <div className="hidden lg:flex lg:flex-1 lg:justify-end gap-4">
             <Link
+              href="/plant-catalog"
+              className={`text-sm font-semibold leading-6 py-2 transition-colors ${
+                scrolled ? 'text-bark-600 hover:text-primary-600' : 'text-white/80 hover:text-white'
+              }`}
+            >
+              Plant Catalog
+            </Link>
+            <Link
               href="/dashboard"
               className={`text-sm font-semibold leading-6 py-2 transition-colors ${
                 scrolled ? 'text-bark-600 hover:text-primary-600' : 'text-white/80 hover:text-white'
@@ -204,6 +212,13 @@ export default function Navbar() {
                         closed: { opacity: 0 }
                       }}
                     >
+                      <Link
+                        href="/plant-catalog"
+                        className="block text-center text-sm font-semibold text-bark-600 hover:text-primary-600 py-2"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        Plant Catalog
+                      </Link>
                       <Link
                         href="/dashboard"
                         className="block text-center text-sm font-semibold text-bark-600 hover:text-primary-600 py-2"
